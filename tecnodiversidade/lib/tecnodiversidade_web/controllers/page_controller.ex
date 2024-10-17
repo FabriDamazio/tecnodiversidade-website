@@ -12,4 +12,8 @@ defmodule TecnodiversidadeWeb.PageController do
     # so skip the default app layout.
     render(conn, :recomendacoes, layout: false)
   end
+
+  def contatos(conn, _params) do
+    render(conn, :contatos, layout: false)
+  end
 end
