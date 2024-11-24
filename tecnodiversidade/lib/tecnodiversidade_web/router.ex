@@ -28,6 +28,11 @@ defmodule TecnodiversidadeWeb.Router do
     # modulo 1
     live "/modulos/1/apresentacao", Modulo11Live
     live "/modulos/1/pergunta", Modulo12Live
+    live "/modulos/1/conceito-tecnologia", Modulo13Live
+    live "/modulos/1/conceito-tecnologia-feenbarg", Modulo14Live
+    live "/modulos/1/conceito-tecnodiversidade", Modulo15Live
+    live "/modulos/1/quizz", Modulo16Live
+    live "/modulos/1/encerramento", Modulo17Live
 
     # modulo 2
     live "/modulos/2/apresentacao", Modulo21Live
