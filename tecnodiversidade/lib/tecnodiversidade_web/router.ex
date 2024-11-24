@@ -24,6 +24,16 @@ defmodule TecnodiversidadeWeb.Router do
     get "/recomendacoes", PageController, :recomendacoes
     get "/contatos", PageController, :contatos
     get "/modulos", PageController, :modulos
+
+    # modulo 1
+    live "/modulos/1/apresentacao", Modulo11Live
+    live "/modulos/1/pergunta", Modulo12Live
+
+    # modulo 2
+    live "/modulos/2/apresentacao", Modulo21Live
+
+    # modulo 3
+    live "/modulos/3/apresentacao", Modulo31Live
   end
 
   # Other scopes may use custom stacks.
