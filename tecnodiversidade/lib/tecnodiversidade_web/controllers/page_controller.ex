@@ -16,4 +16,8 @@ defmodule TecnodiversidadeWeb.PageController do
   def contatos(conn, _params) do
     render(conn, :contatos, layout: false)
   end
+
+  def modulos(conn, _params) do
+    render(conn, :modulos, layout: false)
+  end
 end
