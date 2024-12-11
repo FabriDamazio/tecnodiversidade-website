@@ -13,6 +13,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Roboto', 'ui-sans-serif', 'system-ui'], // Adicione sua fonte personalizada
+      },
       colors: {
         brand: "#FD4F00",
       }

@@ -2,4 +2,31 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-/* This file is for your main application CSS */
+/* Título principal */
+.title-main {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700; /* Bold */
+  font-size: 24pt;
+}
+
+/* Subtítulos */
+.subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500; /* Medium */
+  font-size: 18pt;
+}
+
+/* Corpo de texto */
+.body-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 14pt;
+}
+
+/* Destaques */
+.highlight {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600; /* Semibold */
+  font-size: 14pt;
+}
+
