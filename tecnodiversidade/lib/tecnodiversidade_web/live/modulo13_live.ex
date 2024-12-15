@@ -100,6 +100,7 @@ defmodule TecnodiversidadeWeb.Modulo13Live do
           Você já se percebeu tratando a tecnologia como algo "mágico" que resolverá todos os problemas?
         </p>
       </div>
+      <hr class="mb-8" />
       <!-- Resumo -->
       <div class="mb-8">
         <h2 class="title-main font-bold text-gray-800 mb-4">📑 Resumo</h2>
@@ -113,6 +114,7 @@ defmodule TecnodiversidadeWeb.Modulo13Live do
           O autor destaca como a tecnologia pode ser transformada em uma ideologia que serve a interesses políticos e econômicos.
         </p>
       </div>
+      <hr class="mb-8" />
       <!-- Glossário -->
       <div>
         <h2 class="title-main font-bold text-gray-800 mb-4">🗂️ Glossário</h2>
@@ -122,30 +124,69 @@ defmodule TecnodiversidadeWeb.Modulo13Live do
             Para Vieira Pinto, o "embasbacamento" é um conceito crítico que se refere a um estado de admiração acrítica e passiva diante da tecnologia. Trata-se de uma atitude intelectual caracterizada pela contemplação ingênua e pela idolatria dos artefatos tecnológicos.
           </p>
         </div>
-        <div>
+        <div class="mb-6">
           <h3 class="subtitle text-gray-800">Substantivação da Técnica</h3>
           <p class="text-gray-700">
             Tratar o adjetivo "técnica" como um substantivo abstrato, transformando-o em uma entidade com existência independente, separada da ação humana.
           </p>
         </div>
+        <div class="mb-6">
+          <h3 class="subtitle text-gray-800">Tecnocentrismo</h3>
+          <p class="text-gray-700">
+            A crença de que a tecnologia é a força motriz da sociedade e a solução para todos os problemas, ignorando as dimensões sociais, culturais e éticas.
+          </p>
+        </div>
+        <hr class="mb-8" />
+        <div class="mb-8">
+          <h2 class="title-main text-gray-800 mb-4">📚 Leitura Complementar</h2>
+          <p class="text-gray-700">
+            Para aprofundar seus conhecimentos, sugerimos a leitura da obra “O conceito de tecnologia” de Vieira Pinto (2005) e o artigo “Tecnologia, educação e tecnocentrismo: as contribuições de Álvaro Vieira Pinto” de Silva (2013).
+          </p>
+        </div>
       </div>
-      <div class="flex justify-between mt-4">
-            <button
-              type="button"
-              phx-click="voltar"
-              class="px-6 py-2 bg-gray-600 text-white font-semibold rounded-lg hover:bg-gray-700 transition"
-            >
-              Retornar
-            </button>
-
-            <button
-              type="button"
-              phx-click="avancar"
-              class="px-6 py-2 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition"
-            >
-              Avançar
-            </button>
+      <hr class="mb-8" />
+      <section class="body-text">
+        <div class="container mx-auto px-4">
+          <h2 class="title-main mb-8">Referências</h2>
+          <div class="space-y-4">
+            <p>
+              Rede Álvaro Vieira Pinto. <a
+                href="https://alvarovieirapinto.org/"
+                target="_blank"
+                class="text-blue-500 hover:underline"
+              >Disponível em: https://alvarovieirapinto.org/</a>. Acesso em: 9 nov. 2024.
+            </p>
+            <p>
+              SILVA, Gildemarks Costa e. Tecnologia, educação e tecnocentrismo: as contribuições de Álvaro Vieira Pinto. Rev. Bras. Estud. Pedagógicos. (online), Brasília, v. 94, n. 238, p. 839-857, set./dez. 2013. <a
+                href="https://www.scielo.br/j/rbeped/a/8yzpyFXhFS3bHdpCRsgGRtH/abstract/?lang=pt"
+                target="_blank"
+                class="text-blue-500 hover:underline"
+              >Disponível em: https://www.scielo.br/j/rbeped/a/8yzpyFXhFS3bHdpCRsgGRtH/abstract/?lang=pt</a>. Acesso em: 20 out. 2023.
+            </p>
+            <p>
+              VIEIRA PINTO, Álvaro. O conceito de tecnologia. v. 1. Rio de Janeiro: Contraponto, 2005.
+            </p>
           </div>
+        </div>
+      </section>
+
+      <div class="flex justify-between mt-8">
+        <button
+          type="button"
+          phx-click="voltar"
+          class="px-6 py-2 bg-gray-600 text-white font-semibold rounded-lg hover:bg-gray-700 transition"
+        >
+          Retornar
+        </button>
+
+        <button
+          type="button"
+          phx-click="avancar"
+          class="px-6 py-2 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition"
+        >
+          Avançar
+        </button>
+      </div>
     </section>
     """
   end
