@@ -7,6 +7,13 @@ defmodule TecnodiversidadeWeb.Modulo12Live do
 
   def render(assigns) do
     ~H"""
+    <section class="bg-gray-900 text-white">
+      <div class="container mx-auto px-4 py-16 flex flex-col items-center text-center space-y-6 sm:space-y-8 lg:space-y-10">
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
+          Módulo 1 - Pergunta sobre tecnologia
+        </h1>
+      </div>
+    </section>
     <div class="flex flex-col items-center bg-gray-100 min-h-screen">
       <div class="bg-white p-8 rounded-lg shadow-md max-w-7xl w-full mt-12">
         <h2 class="text-2xl font-semibold mb-6 text-center">
@@ -62,7 +69,6 @@ defmodule TecnodiversidadeWeb.Modulo12Live do
   end
 
   def handle_event("enviar_resposta", %{"resposta" => resposta}, socket) do
-
     # SALVAR A RESPOSTA AQUI
     IO.inspect(resposta)
 
