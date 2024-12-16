@@ -189,10 +189,10 @@ defmodule TecnodiversidadeWeb.Modulo14Live do
   end
 
   def handle_event("avancar", _, socket) do
-    {:noreply, push_navigate(socket, to: ~p"/modulos/1/apresentacao")}
+    {:noreply, push_navigate(socket, to: ~p"/modulos/1/quiz")}
   end
 
   def handle_event("voltar", _, socket) do
-    {:noreply, push_navigate(socket, to: ~p"/modulos/1/pergunta")}
+    {:noreply, push_navigate(socket, to: ~p"/modulos/1/conceito-tecnologia")}
   end
 end

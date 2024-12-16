@@ -33,6 +33,29 @@ topbar.config({barColors: {0: "#29d"}, shadowColor: "rgba(0, 0, 0, .3)"})
 window.addEventListener("phx:page-loading-start", _info => topbar.show(300))
 window.addEventListener("phx:page-loading-stop", _info => topbar.hide())
 
+
+document.addEventListener("phx:update", () => {
+  const hooks = {
+    show_feedback: {
+      mounted() {
+        const { question_id } = this.el.dataset;
+        const feedbackElement = document.querySelector(`#answer-feedback-${question_id}`);
+        if (feedbackElement) {
+          feedbackElement.classList.remove("hidden");
+        }
+      }
+    }
+  };
+
+  window.addEventListener("phx:show_feedback", (e) => {
+    const feedbackElement = document.querySelector(`#answer-feedback-${e.detail.question_id}`);
+    if (feedbackElement) {
+      feedbackElement.classList.remove("hidden");
+    }
+  });
+});
+
+
 // connect if there are any LiveViews on the page
 liveSocket.connect()
 

@@ -10,7 +10,7 @@ defmodule TecnodiversidadeWeb.Modulo13Live do
     <section class="bg-gray-900 text-white">
       <div class="container mx-auto px-4 py-16 flex flex-col items-center text-center space-y-6 sm:space-y-8 lg:space-y-10">
         <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
-          Módulo 1 - As acepções de tecnologia de Álvaro Vieira Pinto
+          As acepções de tecnologia de Álvaro Vieira Pinto
         </h1>
       </div>
     </section>
