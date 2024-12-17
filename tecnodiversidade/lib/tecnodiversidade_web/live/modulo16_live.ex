@@ -15,7 +15,7 @@ defmodule TecnodiversidadeWeb.Modulo16Live do
       </div>
     </section>
 
-    <section class="body-text m-8">
+    <section class="body-text py-8 px-12 max-w-7xl mx-auto">
       <p class="mt-4">
         Concluímos o módulo 1 nos aprofundando nos estudos de dois pensadores fundamentais no campo da filosofia da tecnologia: Álvaro Vieira Pinto e Andrew Feenberg. Suas contribuições nos convidam a desconstruir visões simplistas e deterministas sobre a tecnologia, revelando-a como um campo complexo, atravessado por relações de poder, valores sociais e possibilidades de transformação.
       </p>

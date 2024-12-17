@@ -14,7 +14,7 @@ defmodule TecnodiversidadeWeb.Modulo15Live do
         </h1>
       </div>
     </section>
-    <section class="body-text m-8">
+    <section class="body-text py-8 px-12 max-w-7xl mx-auto">
       <div class="space-y-8">
         <!-- Pergunta 1 -->
         <div class="p-4 border rounded-lg bg-gray-100">
