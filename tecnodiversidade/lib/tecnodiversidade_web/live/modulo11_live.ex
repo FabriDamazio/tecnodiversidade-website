@@ -33,7 +33,7 @@ defmodule TecnodiversidadeWeb.Modulo11Live do
       </p>
       <div class="flex justify-end mt-4">
         <button
-          class="px-6 py-2 bg-gray-700 text-white font-semibold rounded-lg hover:bg-gray-800 transition"
+          class="px-6 py-2 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition"
           phx-click="avancar"
         >
           Avançar
