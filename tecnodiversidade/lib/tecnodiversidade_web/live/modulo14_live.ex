@@ -49,6 +49,12 @@ defmodule TecnodiversidadeWeb.Modulo14Live do
       <p class="mt-4">
         O construtivismo crítico tem como base os fundamentos providos pelos estudos de caso da Ciência, Tecnologia e Sociedade (CTS), o conceito de subdeterminação e a unidade ou ordem sociotécnica. Vamos explorar mais profundamente o Construtivismo Crítico no vídeo a seguir.
       </p>
+      <div class="flex justify-center my-8">
+        <video class="w-full max-w-3xl h-auto" controls>
+          <source src="/videos/construtivismo_critico.mp4" type="video/mp4" />
+          Seu navegador não suporta o elemento de vídeo.
+        </video>
+      </div>
       <p class="mt-4">
         Como acompanhamos na vídeo-aula, Feenberg afirma que as tecnologias são carregadas de valores e que seu desenvolvimento é determinado tanto por questões técnicas quanto por critérios sociais. Assim, os objetos, além de técnicos, são também sociais. Vimos também como Feenberg destaca o potencial de liberdade e controle democrático no desenvolvimento e design tecnológico. Nessa perspectiva, a sociedade não se transforma apenas por meio das instituições políticas, mas também por meio das infraestruturas tecnológicas. Com a articulação de grupos sociais, podem ocorrer reconfigurações dessas infraestruturas tecnológicas e a construção de outros possíveis mundos. Nesse sentido, o autor defende a democratização da tecnologia, onde o processo de desenvolvimento das tecnologias deve ser democratizado, proporcionando conhecimento técnico e identificando as necessidades da sociedade, revertendo a lógica atual que privilegia e mantém a hegemonia tecnológica.
       </p>
