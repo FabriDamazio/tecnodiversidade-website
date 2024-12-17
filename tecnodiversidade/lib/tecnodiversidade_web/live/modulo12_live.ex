@@ -32,7 +32,7 @@ defmodule TecnodiversidadeWeb.Modulo12Live do
           <div class="mb-4 text-center">
             <button
               type="submit"
-              class="px-6 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition"
+              class="px-6 py-2 bg-[#FECB37]  font-semibold rounded-lg hover:bg-[#deaf26] transition"
             >
               Enviar resposta
             </button>
