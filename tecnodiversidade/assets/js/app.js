@@ -35,22 +35,21 @@ window.addEventListener("phx:page-loading-stop", _info => topbar.hide())
 
 
 document.addEventListener("phx:update", () => {
-  const hooks = {
-    show_feedback: {
-      mounted() {
-        const { question_id } = this.el.dataset;
-        const feedbackElement = document.querySelector(`#answer-feedback-${question_id}`);
-        if (feedbackElement) {
-          feedbackElement.classList.remove("hidden");
-        }
-      }
-    }
-  };
 
   window.addEventListener("phx:show_feedback", (e) => {
     const feedbackElement = document.querySelector(`#answer-feedback-${e.detail.question_id}`);
     if (feedbackElement) {
       feedbackElement.classList.remove("hidden");
+      if(e.detail.is_correct == true) {
+        feedbackElement.textContent = "Resposta correta!"
+        feedbackElement.classList.remove("text-red-600")
+        feedbackElement.classList.add("text-green-600")
+      }
+      else {
+        feedbackElement.textContent = "Resposta incorreta!"
+        feedbackElement.classList.remove("text-green-600")
+        feedbackElement.classList.add("text-red-600")
+      }
     }
   });
 });

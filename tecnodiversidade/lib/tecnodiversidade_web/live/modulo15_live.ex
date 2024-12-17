@@ -43,7 +43,6 @@ defmodule TecnodiversidadeWeb.Modulo15Live do
             </div>
           </form>
           <p id="answer-feedback-1" class="mt-4 text-green-600 font-medium hidden">
-            Resposta correta: b)
           </p>
         </div>
         <!-- Pergunta 2 -->
@@ -167,14 +166,16 @@ defmodule TecnodiversidadeWeb.Modulo15Live do
     {:noreply, push_navigate(socket, to: ~p"/modulos/1/conceito-tecnologia-feenberg")}
   end
 
-  def handle_event("validate_answer", %{"question_id" => id, "answer" => _answer}, socket) do
-    _answers = %{
+  def handle_event("validate_answer", %{"question_id" => id, "answer" => answer}, socket) do
+    answers = %{
       "1" => "b",
       "2" => "b",
       "3" => "c",
       "4" => "a"
     }
 
-    {:noreply, push_event(socket, "show_feedback", %{question_id: id})}
+    is_correct = Map.get(answers, id) == answer
+
+    {:noreply, push_event(socket, "show_feedback", %{question_id: id, is_correct: is_correct})}
   end
 end
