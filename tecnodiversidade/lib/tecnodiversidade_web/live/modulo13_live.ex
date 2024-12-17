@@ -15,17 +15,29 @@ defmodule TecnodiversidadeWeb.Modulo13Live do
       </div>
     </section>
 
-    <section class="body-text m-8">
+    <section class="body-text py-8 px-12 max-w-7xl mx-auto">
       <p class="mt-4">
         Em uma perspectiva da teoria crítica, o conceito de tecnologia vai além da ideia de artefatos ou ferramentas e considera que tanto o seu desenvolvimento quanto o seu impacto são intrinsecamente sociais.
       </p>
-      <p class="mt-4">
-        Para Álvaro Vieira Pinto, a tecnologia não se configura apenas como artefatos ou ferramentas, mas um modo de capacidade imaginativa que o homem utiliza para transformar a realidade. Para ele, a tecnologia é resultado do trabalho humano para produzir a sua existência.
-      </p>
-      <p class="mt-4">
-        Em sua obra “O Conceito de Tecnologia” publicada em 2005, Vieira Pinto identifica quatro significados centrais para a tecnologia:
-      </p>
-      <img src="/images/tela_3_acepcoes.png" class="mt-4" />
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-center mt-4">
+        <!-- Imagem à esquerda -->
+        <div>
+          <img
+            src="/images/tela_3_acepcoes.png"
+            alt="Imagem relacionada às acepções da tecnologia"
+            class="w-full rounded-md"
+          />
+        </div>
+        <!-- Texto à direita -->
+        <div>
+          <p class="mt-4">
+            Para Álvaro Vieira Pinto, a tecnologia não se configura apenas como artefatos ou ferramentas, mas um modo de capacidade imaginativa que o homem utiliza para transformar a realidade. Para ele, a tecnologia é resultado do trabalho humano para produzir a sua existência.
+          </p>
+          <p>
+            Em sua obra “O Conceito de Tecnologia” publicada em 2005, Vieira Pinto identifica quatro significados centrais para a tecnologia:
+          </p>
+        </div>
+      </div>
       <p class="highlight mt-4">
         1. Tecnologia como Epistemologia da Técnica
       </p>
@@ -91,7 +103,7 @@ defmodule TecnodiversidadeWeb.Modulo13Live do
         A análise de Vieira Pinto sobre as acepções da tecnologia oferece uma crítica profunda da relação entre técnica, sociedade e poder. O autor destaca os perigos da ideologização da técnica, que transforma a tecnologia em um instrumento de dominação e alienação, e nos orienta para uma compreensão crítica da tecnologia como atividade humana inserida na cultura.
       </p>
     </section>
-    <section class="body-text bg-gray-50 py-8 px-4 sm:px-6 lg:px-8">
+    <section class="bg-gray-50 body-text py-8 px-12 max-w-7xl mx-auto">
       <!-- Para Refletir -->
       <div class="mb-8">
         <h2 class="title-main text-gray-800 mb-4">🗨️ Para refletir</h2>
@@ -104,35 +116,37 @@ defmodule TecnodiversidadeWeb.Modulo13Live do
       <!-- Resumo -->
       <div class="mb-8">
         <h2 class="title-main font-bold text-gray-800 mb-4">📑 Resumo</h2>
-        <p class="text-gray-700 mb-4">
-          Vieira Pinto desenvolve uma análise crítica da tecnologia, identificando quatro significados centrais: tecnologia como epistemologia da técnica, como técnica em si, como conjunto de técnicas de uma sociedade, e como ideologização.
-        </p>
-        <p class="text-gray-700 mb-4">
-          Vieira Pinto defende que a tecnologia é fundamentalmente uma criação humana, resultado do trabalho e da capacidade imaginativa do homem para transformar a realidade.
-        </p>
-        <p class="text-gray-700">
-          O autor destaca como a tecnologia pode ser transformada em uma ideologia que serve a interesses políticos e econômicos.
-        </p>
+        <ul class="mt-6 pl-6 list-disc">
+          <li class="text-gray-700 mb-4">
+            Vieira Pinto desenvolve uma análise crítica da tecnologia, identificando quatro significados centrais: tecnologia como epistemologia da técnica, como técnica em si, como conjunto de técnicas de uma sociedade, e como ideologização.
+          </li>
+          <li class="text-gray-700 mb-4">
+            Vieira Pinto defende que a tecnologia é fundamentalmente uma criação humana, resultado do trabalho e da capacidade imaginativa do homem para transformar a realidade.
+          </li>
+          <li class="text-gray-700">
+            O autor destaca como a tecnologia pode ser transformada em uma ideologia que serve a interesses políticos e econômicos.
+          </li>
+        </ul>
       </div>
       <hr class="mb-8" />
       <!-- Glossário -->
       <div>
         <h2 class="title-main font-bold text-gray-800 mb-4">🗂️ Glossário</h2>
         <div class="mb-6">
-          <h3 class="subtitle text-gray-800">Embasbacamento</h3>
           <p class="text-gray-700">
+            <strong>Embasbacamento:</strong>
             Para Vieira Pinto, o "embasbacamento" é um conceito crítico que se refere a um estado de admiração acrítica e passiva diante da tecnologia. Trata-se de uma atitude intelectual caracterizada pela contemplação ingênua e pela idolatria dos artefatos tecnológicos.
           </p>
         </div>
         <div class="mb-6">
-          <h3 class="subtitle text-gray-800">Substantivação da Técnica</h3>
           <p class="text-gray-700">
+            <strong>Substantivação da Técnica:</strong>
             Tratar o adjetivo "técnica" como um substantivo abstrato, transformando-o em uma entidade com existência independente, separada da ação humana.
           </p>
         </div>
         <div class="mb-6">
-          <h3 class="subtitle text-gray-800">Tecnocentrismo</h3>
           <p class="text-gray-700">
+            <strong>Tecnocentrismo:</strong>
             A crença de que a tecnologia é a força motriz da sociedade e a solução para todos os problemas, ignorando as dimensões sociais, culturais e éticas.
           </p>
         </div>
@@ -146,27 +160,25 @@ defmodule TecnodiversidadeWeb.Modulo13Live do
       </div>
       <hr class="mb-8" />
       <section class="body-text">
-        <div class="container mx-auto px-4">
-          <h2 class="title-main mb-8">Referências</h2>
-          <div class="space-y-4">
-            <p>
-              Rede Álvaro Vieira Pinto. <a
-                href="https://alvarovieirapinto.org/"
-                target="_blank"
-                class="text-blue-500 hover:underline"
-              >Disponível em: https://alvarovieirapinto.org/</a>. Acesso em: 9 nov. 2024.
-            </p>
-            <p>
-              SILVA, Gildemarks Costa e. Tecnologia, educação e tecnocentrismo: as contribuições de Álvaro Vieira Pinto. Rev. Bras. Estud. Pedagógicos. (online), Brasília, v. 94, n. 238, p. 839-857, set./dez. 2013. <a
-                href="https://www.scielo.br/j/rbeped/a/8yzpyFXhFS3bHdpCRsgGRtH/abstract/?lang=pt"
-                target="_blank"
-                class="text-blue-500 hover:underline"
-              >Disponível em: https://www.scielo.br/j/rbeped/a/8yzpyFXhFS3bHdpCRsgGRtH/abstract/?lang=pt</a>. Acesso em: 20 out. 2023.
-            </p>
-            <p>
-              VIEIRA PINTO, Álvaro. O conceito de tecnologia. v. 1. Rio de Janeiro: Contraponto, 2005.
-            </p>
-          </div>
+        <h2 class="title-main mb-8">Referências</h2>
+        <div class="space-y-4">
+          <p>
+            Rede Álvaro Vieira Pinto. <a
+              href="https://alvarovieirapinto.org/"
+              target="_blank"
+              class="text-blue-500 hover:underline"
+            >Disponível em: https://alvarovieirapinto.org/</a>. Acesso em: 9 nov. 2024.
+          </p>
+          <p>
+            SILVA, Gildemarks Costa e. Tecnologia, educação e tecnocentrismo: as contribuições de Álvaro Vieira Pinto. Rev. Bras. Estud. Pedagógicos. (online), Brasília, v. 94, n. 238, p. 839-857, set./dez. 2013. <a
+              href="https://www.scielo.br/j/rbeped/a/8yzpyFXhFS3bHdpCRsgGRtH/abstract/?lang=pt"
+              target="_blank"
+              class="text-blue-500 hover:underline"
+            >Disponível em: https://www.scielo.br/j/rbeped/a/8yzpyFXhFS3bHdpCRsgGRtH/abstract/?lang=pt</a>. Acesso em: 20 out. 2023.
+          </p>
+          <p>
+            VIEIRA PINTO, Álvaro. O conceito de tecnologia. v. 1. Rio de Janeiro: Contraponto, 2005.
+          </p>
         </div>
       </section>
 
