@@ -102,6 +102,18 @@ defmodule TecnodiversidadeWeb.Modulo13Live do
       <p class="mt-4">
         A análise de Vieira Pinto sobre as acepções da tecnologia oferece uma crítica profunda da relação entre técnica, sociedade e poder. O autor destaca os perigos da ideologização da técnica, que transforma a tecnologia em um instrumento de dominação e alienação, e nos orienta para uma compreensão crítica da tecnologia como atividade humana inserida na cultura.
       </p>
+      <hr class="my-8" />
+      <p class="mt-4">
+        Para enriquecer sua compreensão, convidamos você a escutar um podcast, gerado com o auxílio do NotebookLM, uma inteligência artificial projetada para criar conteúdos educativos. Este podcast baseado no texto "Tecnologia, educação e tecnocentrismo: as contribuições de Álvaro Vieira Pinto", de Gildemarks Costa e Silva as ideias centrais do texto, destacando as críticas ao tecnocentrismo e o papel transformador da tecnologia na educação, segundo a perspectiva de Álvaro Vieira Pinto.
+      </p>
+
+      <section class="bg-gray-100 p-8 max-w-lg mx-auto rounded-lg shadow-lg mt-8">
+        <h2 class="text-xl font-bold text-gray-800 mb-4">Tecnologia, educação e tecnocentrismo</h2>
+        <audio controls class="w-full">
+          <source src="/audios/podcast_vieria_pinto.mp3" type="audio/mpeg" />
+          Seu navegador não suporta o elemento de áudio.
+        </audio>
+      </section>
     </section>
     <section class="bg-gray-50 body-text py-8 px-12 max-w-7xl mx-auto">
       <!-- Para Refletir -->
