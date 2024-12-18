@@ -7,21 +7,21 @@ defmodule TecnodiversidadeWeb.UserForgotPasswordLive do
     ~H"""
     <div class="mx-auto max-w-sm">
       <.header class="text-center">
-        Forgot your password?
-        <:subtitle>We'll send a password reset link to your inbox</:subtitle>
+        Esqueceu sua senha?
+        <:subtitle>Vamos enviar um link para redefinição de senha no seu e-mail</:subtitle>
       </.header>
 
       <.simple_form for={@form} id="reset_password_form" phx-submit="send_email">
         <.input field={@form[:email]} type="email" placeholder="Email" required />
         <:actions>
-          <.button phx-disable-with="Sending..." class="w-full">
-            Send password reset instructions
+          <.button phx-disable-with="Enviando..." class="w-full">
+            Envie instruções para redefinição de senha
           </.button>
         </:actions>
       </.simple_form>
       <p class="text-center text-sm mt-4">
-        <.link href={~p"/users/register"}>Register</.link>
-        | <.link href={~p"/users/log_in"}>Log in</.link>
+        <.link href={~p"/users/register"}>Criar Conta</.link>
+        | <.link href={~p"/users/log_in"}>Entrar</.link>
       </p>
     </div>
     """
@@ -40,7 +40,7 @@ defmodule TecnodiversidadeWeb.UserForgotPasswordLive do
     end
 
     info =
-      "If your email is in our system, you will receive instructions to reset your password shortly."
+      "Se seu e-mail estiver em nosso sistema, você receberá suas instruções no e-mail em breve."
 
     {:noreply,
      socket

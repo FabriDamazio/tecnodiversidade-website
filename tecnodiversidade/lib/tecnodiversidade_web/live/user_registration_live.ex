@@ -8,13 +8,12 @@ defmodule TecnodiversidadeWeb.UserRegistrationLive do
     ~H"""
     <div class="mx-auto max-w-sm">
       <.header class="text-center">
-        Register for an account
+        Criar uma conta
         <:subtitle>
-          Already registered?
+          Já tem uma conta?
           <.link navigate={~p"/users/log_in"} class="font-semibold text-brand hover:underline">
-            Log in
+            Entrar na sua conta
           </.link>
-          to your account now.
         </:subtitle>
       </.header>
 
@@ -28,14 +27,14 @@ defmodule TecnodiversidadeWeb.UserRegistrationLive do
         method="post"
       >
         <.error :if={@check_errors}>
-          Oops, something went wrong! Please check the errors below.
+          Algo deu errado, verifique os erros abaixo.
         </.error>
 
-        <.input field={@form[:email]} type="email" label="Email" required />
-        <.input field={@form[:password]} type="password" label="Password" required />
+        <.input field={@form[:email]} type="email" label="E-mail" required />
+        <.input field={@form[:password]} type="password" label="Senha" required />
 
         <:actions>
-          <.button phx-disable-with="Creating account..." class="w-full">Create an account</.button>
+          <.button phx-disable-with="Criando conta..." class="w-full">Criar Conta</.button>
         </:actions>
       </.simple_form>
     </div>

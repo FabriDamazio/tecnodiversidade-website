@@ -6,8 +6,8 @@ defmodule TecnodiversidadeWeb.UserSettingsLive do
   def render(assigns) do
     ~H"""
     <.header class="text-center">
-      Account Settings
-      <:subtitle>Manage your account email address and password settings</:subtitle>
+      Configurações da conta
+      <:subtitle>Gerencie as configurações da sua conta</:subtitle>
     </.header>
 
     <div class="space-y-12 divide-y">
@@ -18,18 +18,18 @@ defmodule TecnodiversidadeWeb.UserSettingsLive do
           phx-submit="update_email"
           phx-change="validate_email"
         >
-          <.input field={@email_form[:email]} type="email" label="Email" required />
+          <.input field={@email_form[:email]} type="email" label="E-mail" required />
           <.input
             field={@email_form[:current_password]}
             name="current_password"
             id="current_password_for_email"
             type="password"
-            label="Current password"
+            label="Senha atual"
             value={@email_form_current_password}
             required
           />
           <:actions>
-            <.button phx-disable-with="Changing...">Change Email</.button>
+            <.button phx-disable-with="Trocando...">Trocar E-mail</.button>
           </:actions>
         </.simple_form>
       </div>
@@ -49,23 +49,23 @@ defmodule TecnodiversidadeWeb.UserSettingsLive do
             id="hidden_user_email"
             value={@current_email}
           />
-          <.input field={@password_form[:password]} type="password" label="New password" required />
+          <.input field={@password_form[:password]} type="password" label="Nova Senha" required />
           <.input
             field={@password_form[:password_confirmation]}
             type="password"
-            label="Confirm new password"
+            label="Confirme a nova senha"
           />
           <.input
             field={@password_form[:current_password]}
             name="current_password"
             type="password"
-            label="Current password"
+            label="Senha atual"
             id="current_password_for_password"
             value={@current_password}
             required
           />
           <:actions>
-            <.button phx-disable-with="Changing...">Change Password</.button>
+            <.button phx-disable-with="Trocando...">Trocar a Senha</.button>
           </:actions>
         </.simple_form>
       </div>
@@ -77,10 +77,10 @@ defmodule TecnodiversidadeWeb.UserSettingsLive do
     socket =
       case Accounts.update_user_email(socket.assigns.current_user, token) do
         :ok ->
-          put_flash(socket, :info, "Email changed successfully.")
+          put_flash(socket, :info, "E-mail atualizado com sucesso.")
 
         :error ->
-          put_flash(socket, :error, "Email change link is invalid or it has expired.")
+          put_flash(socket, :error, "Link inválido ou expirado.")
       end
 
     {:ok, push_navigate(socket, to: ~p"/users/settings")}
@@ -127,7 +127,7 @@ defmodule TecnodiversidadeWeb.UserSettingsLive do
           &url(~p"/users/settings/confirm_email/#{&1}")
         )
 
-        info = "A link to confirm your email change has been sent to the new address."
+        info = "Um link de confirmação foi enviado ao novo endereço de e-mail."
         {:noreply, socket |> put_flash(:info, info) |> assign(email_form_current_password: nil)}
 
       {:error, changeset} ->
