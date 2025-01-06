@@ -37,6 +37,7 @@ defmodule TecnodiversidadeWeb.Router do
     live "/modulos/2/apresentacao", Modulo21Live
     live "/modulos/2/conceito-tecnodiversidade", Modulo22Live
     live "/modulos/2/discussoes-tecnodiversidade", Modulo23Live
+    live "/modulos/2/mapeamento-alternativas-tecnodiversas", Modulo24Live
 
     # modulo 3
     live "/modulos/3/apresentacao", Modulo31Live
