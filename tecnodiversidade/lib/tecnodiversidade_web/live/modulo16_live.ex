@@ -50,7 +50,7 @@ defmodule TecnodiversidadeWeb.Modulo16Live do
   end
 
   def handle_event("avancar", _, socket) do
-    {:noreply, push_navigate(socket, to: ~p"/modulos/1/apresentacao")}
+    {:noreply, push_navigate(socket, to: ~p"/modulos/2/apresentacao")}
   end
 
   def handle_event("voltar", _, socket) do
