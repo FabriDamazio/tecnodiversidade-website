@@ -38,6 +38,8 @@ defmodule TecnodiversidadeWeb.Router do
     live "/modulos/2/conceito-tecnodiversidade", Modulo22Live
     live "/modulos/2/discussoes-tecnodiversidade", Modulo23Live
     live "/modulos/2/mapeamento-alternativas-tecnodiversas", Modulo24Live
+    live "/modulos/2/pergunta", Modulo25Live
+    live "/modulos/2/quiz", Modulo26Live
 
     # modulo 3
     live "/modulos/3/apresentacao", Modulo31Live
