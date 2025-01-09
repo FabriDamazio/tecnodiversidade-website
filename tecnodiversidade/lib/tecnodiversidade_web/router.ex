@@ -47,8 +47,8 @@ defmodule TecnodiversidadeWeb.Router do
     live "/modulos/3/apresentacao", Modulo31Live
     live "/modulos/3/questao-tecnologia-ept", Modulo32Live
     live "/modulos/3/tecnodiversidade-ept", Modulo33Live
-    live "/modulos/3/quiz", Modulo34
-    live "/modulos/3/encerramento", Modulo35
+    live "/modulos/3/quiz", Modulo34Live
+    live "/modulos/3/encerramento", Modulo35Live
   end
 
   # Other scopes may use custom stacks.
