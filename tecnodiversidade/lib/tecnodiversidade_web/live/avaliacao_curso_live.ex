@@ -1,4 +1,4 @@
-defmodule TecnodiversidadeWeb.Modulo35Live do
+defmodule TecnodiversidadeWeb.AvaliacaoCursoLive do
   use TecnodiversidadeWeb, :live_view
 
   def mount(_params, _session, socket) do
@@ -10,7 +10,7 @@ defmodule TecnodiversidadeWeb.Modulo35Live do
     <section class="bg-gray-900 text-white">
       <div class="container mx-auto px-4 py-16 flex flex-col items-center text-center space-y-6 sm:space-y-8 lg:space-y-10">
         <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
-          Conclusão - Módulo 3
+          Avaliação do Curso
         </h1>
       </div>
     </section>
@@ -28,32 +28,7 @@ defmodule TecnodiversidadeWeb.Modulo35Live do
       <p class="mt-4">
         Até o próximo módulo!
       </p>
-      <div class="flex justify-between mt-8">
-        <button
-          type="button"
-          phx-click="voltar"
-          class="px-6 py-2 bg-gray-600 text-white font-semibold rounded-lg hover:bg-gray-700 transition"
-        >
-          Retornar
-        </button>
-
-        <button
-          type="button"
-          phx-click="avancar"
-          class="px-6 py-2 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition"
-        >
-          Avançar
-        </button>
-      </div>
     </section>
     """
-  end
-
-  def handle_event("avancar", _, socket) do
-    {:noreply, push_navigate(socket, to: ~p"/avaliacao-curso")}
-  end
-
-  def handle_event("voltar", _, socket) do
-    {:noreply, push_navigate(socket, to: ~p"/modulos/3/quiz")}
   end
 end

@@ -24,7 +24,7 @@ defmodule TecnodiversidadeWeb.Router do
     get "/recomendacoes", PageController, :recomendacoes
     get "/contatos", PageController, :contatos
     get "/modulos", PageController, :modulos
-    live "/avaliacao-curso", AvaliacaoCurso
+    live "/avaliacao-curso", AvaliacaoCursoLive
 
     # modulo 1
     live "/modulos/1/apresentacao", Modulo11Live
