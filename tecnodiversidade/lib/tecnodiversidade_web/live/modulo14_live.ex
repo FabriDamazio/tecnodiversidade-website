@@ -55,9 +55,28 @@ defmodule TecnodiversidadeWeb.Modulo14Live do
           Seu navegador não suporta o elemento de vídeo.
         </video>
       </div>
-      <p class="mt-4">
+      <p class="mt-4 mb-8">
         Como acompanhamos na vídeo-aula, Feenberg afirma que as tecnologias são carregadas de valores e que seu desenvolvimento é determinado tanto por questões técnicas quanto por critérios sociais. Assim, os objetos, além de técnicos, são também sociais. Vimos também como Feenberg destaca o potencial de liberdade e controle democrático no desenvolvimento e design tecnológico. Nessa perspectiva, a sociedade não se transforma apenas por meio das instituições políticas, mas também por meio das infraestruturas tecnológicas. Com a articulação de grupos sociais, podem ocorrer reconfigurações dessas infraestruturas tecnológicas e a construção de outros possíveis mundos. Nesse sentido, o autor defende a democratização da tecnologia, onde o processo de desenvolvimento das tecnologias deve ser democratizado, proporcionando conhecimento técnico e identificando as necessidades da sociedade, revertendo a lógica atual que privilegia e mantém a hegemonia tecnológica.
       </p>
+      <hr class="mb-8" />
+      <h2 class="font-bold">
+        Bibliografia básica
+      </h2>
+      <p class="mt-4">
+        FEENBERG, Andrew. O que é a filosofia da tecnologia? In: NEDER, Ricardo Toledo. <b>A teoria crítica de Andrew Feenberg:</b> racionalização democrática, poder e tecnologia. 2ª, Brasília: Observatório do Movimento pela Tecnologia Social na América Latina/CDS/UnB/Capes, 2013a. p. 49-66. Disponível em: <a
+          href="https://www.sfu.ca/~andrewf/Coletanea.pdf"
+          target="_blank"
+          class="text-blue-500 hover:underline"
+        >https://www.sfu.ca/~andrewf/Coletanea.pdf</a>. Acesso em: 10 dez. 2024.
+      </p>
+      <p class="mt-4 mb-8 ">
+        FEENBERG, Andrew. Racionalização subversiva: tecnologia, poder e democracia. In: NEDER, Ricardo Toledo. <b>A teoria crítica de Andrew Feenberg:</b> racionalização democrática, poder e tecnologia. 2ª, Brasília: Observatório do Movimento pela Tecnologia Social na América Latina/CDS/UnB/Capes, 2013a. p. 67-98. Disponível em: <a
+          href="https://www.sfu.ca/~andrewf/Coletanea.pdf"
+          target="_blank"
+          class="text-blue-500 hover:underline"
+        >https://www.sfu.ca/~andrewf/Coletanea.pdf</a>. Acesso em: 10 dez. 2024.
+      </p>
+      <hr class="mb-8" />
     </section>
     <section class="body-text py-8 px-12 max-w-7xl mx-auto bg-gray-50">
       <!-- Para Refletir -->
@@ -141,36 +160,6 @@ defmodule TecnodiversidadeWeb.Modulo14Live do
         </div>
       </div>
       <hr class="mb-8" />
-      <section class="body-text">
-        <div class="container mx-auto px-4">
-          <h2 class="title-main mb-8">Referências</h2>
-          <p>
-            CRUZ, Cristiano Cordeiro.<strong> Andrew Feenberg:</strong> a relação entre tecnologia, política e sociedade. YouTube, 4 dez. 2020. <a
-              href="https://www.youtube.com/watch?v=mIYPQl2CAeo&t=5946s"
-              target="_blank"
-              class="text-blue-500 hover:underline"
-            >Disponível em: https://www.youtube.com/watch?v=mIYPQl2CAeo&t=5946s</a>. Acesso em: 14 out. 2024.
-          </p>
-          <p>
-            FEENBERG, Andrew.<strong> Transforming Technology:</strong> A Critical Theory Revisited. Oxford University Press, 2002.
-          </p>
-          <p>
-            FEENBERG, Andrew. Racionalização subversiva: tecnologia, poder e democracia. In: R. T. Neder (Org.),
-            <strong>Andrew Feenberg:</strong>
-            racionalização democrática, poder e tecnologia. Brasília, DF: Observatório do Movimento pela Tecnologia Social na América Latina/CDS/UnB/Capes. 2010.
-          </p>
-          <p>
-            FEENBERG, Andrew. O que é a filosofia da tecnologia?. In: R. T. Neder (Org.),
-            <strong> Andrew Feenberg:</strong>
-            racionalização democrática, poder e tecnologia. Brasília, DF: Observatório do Movimento pela Tecnologia Social na América Latina/CDS/UnB/Capes. 2010.
-          </p>
-          <p>
-            FEENBERG, Andrew. <strong>Conctrutivismo crítico:</strong>
-            uma filosofia da tecnologia. Trad. Luiz Abrahão e Cristiano Cruz. São Paulo: Scientiae Studia, 2022.
-          </p>
-        </div>
-      </section>
-
       <div class="flex justify-between mt-8">
         <button
           type="button"

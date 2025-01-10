@@ -103,6 +103,14 @@ defmodule TecnodiversidadeWeb.Modulo13Live do
         A análise de Vieira Pinto sobre as acepções da tecnologia oferece uma crítica profunda da relação entre técnica, sociedade e poder. O autor destaca os perigos da ideologização da técnica, que transforma a tecnologia em um instrumento de dominação e alienação, e nos orienta para uma compreensão crítica da tecnologia como atividade humana inserida na cultura.
       </p>
       <hr class="my-8" />
+      <h2 class="font-bold">
+        Bibliografia básica
+      </h2>
+      <p class="mt-4">
+        VIEIRA PINTO, Álvaro. A tecnologia. IN: VIEIRA PINTO, Álvaro. <b>O conceito de tecnologia.</b>
+        v. 1. Rio de Janeiro: Contraponto, 2005. p. 219- 355.
+      </p>
+      <hr class="my-8" />
       <p class="mt-4">
         Para enriquecer sua compreensão, convidamos você a escutar um podcast, gerado com o auxílio do NotebookLM, uma inteligência artificial projetada para criar conteúdos educativos. Este podcast baseado no texto "Tecnologia, educação e tecnocentrismo: as contribuições de Álvaro Vieira Pinto", de Gildemarks Costa e Silva as ideias centrais do texto, destacando as críticas ao tecnocentrismo e o papel transformador da tecnologia na educação, segundo a perspectiva de Álvaro Vieira Pinto.
       </p>
@@ -166,34 +174,18 @@ defmodule TecnodiversidadeWeb.Modulo13Live do
         <div class="mb-8">
           <h2 class="title-main text-gray-800 mb-4">📚 Leitura Complementar</h2>
           <p class="text-gray-700">
-            Para aprofundar seus conhecimentos, sugerimos a leitura da obra “O conceito de tecnologia” de Vieira Pinto (2005) e o artigo “Tecnologia, educação e tecnocentrismo: as contribuições de Álvaro Vieira Pinto” de Silva (2013).
+            Para aprofundar seus conhecimentos, sugerimos a leitura do artigo “Tecnologia, educação e tecnocentrismo: as contribuições de Álvaro Vieira Pinto” de Gildemarks Costa e Silva disponível em:
+            <a
+              href="https://www.scielo.br/j/rbeped/a/8yzpyFXhFS3bHdpCRsgGRtH/abstract/?lang=pt"
+              target="_blank"
+              class="text-blue-500 hover:underline"
+            >
+              https://www.scielo.br/j/rbeped/a/8yzpyFXhFS3bHdpCRsgGRtH/abstract/?lang=pt
+            </a>
           </p>
         </div>
       </div>
       <hr class="mb-8" />
-      <section class="body-text">
-        <h2 class="title-main mb-8">Referências</h2>
-        <div class="space-y-4">
-          <p>
-            Rede Álvaro Vieira Pinto. <a
-              href="https://alvarovieirapinto.org/"
-              target="_blank"
-              class="text-blue-500 hover:underline"
-            >Disponível em: https://alvarovieirapinto.org/</a>. Acesso em: 9 nov. 2024.
-          </p>
-          <p>
-            SILVA, Gildemarks Costa e. Tecnologia, educação e tecnocentrismo: as contribuições de Álvaro Vieira Pinto. Rev. Bras. Estud. Pedagógicos. (online), Brasília, v. 94, n. 238, p. 839-857, set./dez. 2013. <a
-              href="https://www.scielo.br/j/rbeped/a/8yzpyFXhFS3bHdpCRsgGRtH/abstract/?lang=pt"
-              target="_blank"
-              class="text-blue-500 hover:underline"
-            >Disponível em: https://www.scielo.br/j/rbeped/a/8yzpyFXhFS3bHdpCRsgGRtH/abstract/?lang=pt</a>. Acesso em: 20 out. 2023.
-          </p>
-          <p>
-            VIEIRA PINTO, Álvaro. O conceito de tecnologia. v. 1. Rio de Janeiro: Contraponto, 2005.
-          </p>
-        </div>
-      </section>
-
       <div class="flex justify-between mt-8">
         <button
           type="button"

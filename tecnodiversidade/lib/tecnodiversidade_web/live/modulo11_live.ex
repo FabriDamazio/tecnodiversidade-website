@@ -29,6 +29,9 @@ defmodule TecnodiversidadeWeb.Modulo11Live do
         É sobre isso que vamos falar neste módulo, tendo como principais referências os autores Álvaro Vieira Pinto e Andrew Feenberg.
       </p>
       <p class="mt-4">
+        A leitura da bibliografia básica é parte fundamental deste módulo, sendo importante para a construção da base teórica necessária à compreensão do conteúdo.
+      </p>
+      <p class="mt-4">
         Bons estudos!
       </p>
       <div class="flex justify-end mt-4">
