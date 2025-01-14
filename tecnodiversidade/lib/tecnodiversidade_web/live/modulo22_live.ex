@@ -24,7 +24,7 @@ defmodule TecnodiversidadeWeb.Modulo22Live do
       </p>
       <div class="flex justify-center">
         <video class="w-full max-w-3xl h-auto" controls>
-          <source src="/videos/apresentacao_modulo_2.mp4" type="video/mp4" />
+          <source src="/videos/contexto_tecnodiversidade.mp4" type="video/mp4" />
           Seu navegador não suporta o elemento de vídeo.
         </video>
       </div>
