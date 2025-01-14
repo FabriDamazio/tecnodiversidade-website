@@ -18,15 +18,15 @@ defmodule TecnodiversidadeWeb.Modulo21Live do
     <section class="body-text py-8 px-12 max-w-7xl mx-auto">
       <div class="flex justify-center">
         <video class="w-full max-w-3xl h-auto" controls>
-          <source src="/videos/apresentacao_modulo_1.mp4" type="video/mp4" />
+          <source src="/videos/apresentacao_modulo_2.mp4" type="video/mp4" />
           Seu navegador não suporta o elemento de vídeo.
         </video>
       </div>
       <p class="mt-8">
-        No nosso dia a dia, usamos constantemente a palavra "tecnologia", mas você já parou para pensar sobre seus diferentes significados? Será que realmente compreendemos o que é a tecnologia e o que está por trás das transformações vindas com ela? Quem decide os rumos da tecnologia? A quem ela serve? Quais são seus impactos reais?
+        Neste módulo, exploraremos o conceito de tecnodiversidade com base na teoria do filósofo da tecnologia Yuk Hui. Além disso, analisaremos como a tecnodiversidade pode contribuir para a realidade brasileira e quais iniciativas já estão em andamento nesse contexto.
       </p>
       <p class="mt-4">
-        É sobre isso que vamos falar neste módulo, tendo como principais referências os autores Álvaro Vieira Pinto e Andrew Feenberg.
+        Assim como no Módulo 1, a leitura da bibliografia básica é parte fundamental para a compreensão do conceito de tecnodiversidade e das discussões feitas ao longo deste módulo.
       </p>
       <p class="mt-4">
         Bons estudos!
