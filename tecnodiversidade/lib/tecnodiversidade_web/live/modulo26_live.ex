@@ -19,26 +19,26 @@ defmodule TecnodiversidadeWeb.Modulo26Live do
         <!-- Pergunta 1 -->
         <div class="p-4 border rounded-lg bg-gray-100">
           <p class="text-lg font-semibold mb-2">
-            1. Qual das seguintes afirmativas melhor descreve a visão de Álvaro Vieira Pinto sobre tecnologia?
+            1. Qual é a principal crítica de Yuk Hui em relação à tecnologia moderna?
           </p>
           <form phx-change="validate_answer">
             <input type="hidden" name="question_id" value="1" />
             <div class="space-y-2">
               <label class="block">
                 <input type="radio" name="answer" value="a" class="mr-2" />
-                a) É composta apenas por artefatos e ferramentas.
+                a) Falta de inovação técnica.
               </label>
               <label class="block">
                 <input type="radio" name="answer" value="b" class="mr-2" />
-                b) É resultado do trabalho humano para transformar a realidade.
+                b) Universalidade e homogeneidade das tecnologias modernas.
               </label>
               <label class="block">
                 <input type="radio" name="answer" value="c" class="mr-2" />
-                c) É sempre neutra e independente de fatores sociais.
+                c) Excesso de investimento em inteligência artificial.
               </label>
               <label class="block">
                 <input type="radio" name="answer" value="d" class="mr-2" />
-                d) É um conjunto fixo de regras técnicas universais.
+                d) Uso de tecnologias tradicionais em vez de modernas.
               </label>
             </div>
           </form>
@@ -48,91 +48,88 @@ defmodule TecnodiversidadeWeb.Modulo26Live do
         <!-- Pergunta 2 -->
         <div class="p-4 border rounded-lg bg-gray-100">
           <p class="text-lg font-semibold mb-2">
-            2. O que Vieira Pinto critica na ideologização da tecnologia?
+            2. O conceito de cosmotécnica refere-se a:
           </p>
           <form phx-change="validate_answer">
             <input type="hidden" name="question_id" value="2" />
             <div class="space-y-2">
               <label class="block">
                 <input type="radio" name="answer" value="a" class="mr-2" />
-                a) A valorização do trabalho humano na criação de artefatos tecnológicos.
+                a) A busca pela universalização das técnicas.
               </label>
               <label class="block">
                 <input type="radio" name="answer" value="b" class="mr-2" />
-                b) A transformação da técnica em uma entidade autônoma, separada da ação humana.
+                b) A integração entre cosmos e moral em práticas técnicas de cada cultura.
               </label>
               <label class="block">
                 <input type="radio" name="answer" value="c" class="mr-2" />
-                c) A aceitação de diferentes projetos tecnológicos para cada sociedade.
+                c) O desenvolvimento de tecnologias baseadas exclusivamente na inteligência artificial.
               </label>
               <label class="block">
                 <input type="radio" name="answer" value="d" class="mr-2" />
-                d) A abordagem técnica como sinônimo de desenvolvimento social.
+                d) A competição tecnológica entre diferentes países.
               </label>
             </div>
           </form>
           <p id="answer-feedback-2" class="mt-4 text-green-600 font-medium hidden">
-            Resposta correta: b)
           </p>
         </div>
         <!-- Pergunta 3 -->
         <div class="p-4 border rounded-lg bg-gray-100">
           <p class="text-lg font-semibold mb-2">
-            3. De acordo com Feenberg, qual é o principal objetivo do Construtivismo Crítico?
+            3. O movimento decolonial dialoga com a tecnodiversidade ao:
           </p>
           <form phx-change="validate_answer">
             <input type="hidden" name="question_id" value="3" />
             <div class="space-y-2">
               <label class="block">
                 <input type="radio" name="answer" value="a" class="mr-2" />
-                a) Defender a neutralidade da tecnologia.
+                a) Promover a padronização global das tecnologias.
               </label>
               <label class="block">
                 <input type="radio" name="answer" value="b" class="mr-2" />
-                b) Provar que a tecnologia é determinada exclusivamente por fatores técnicos.
+                b) Reforçar as epistemologias eurocêntricas.
               </label>
               <label class="block">
                 <input type="radio" name="answer" value="c" class="mr-2" />
-                c) Promover o controle democrático e a participação social no desenvolvimento tecnológico.
+                c) Questionar padrões históricos de dominação tecnológica.
               </label>
               <label class="block">
                 <input type="radio" name="answer" value="d" class="mr-2" />
-                d) Demonstrar que a tecnologia é completamente autônoma.
+                d) Impedir o avanço das tecnologias contemporâneas.
               </label>
             </div>
           </form>
           <p id="answer-feedback-3" class="mt-4 text-green-600 font-medium hidden">
-            Resposta correta: c)
           </p>
         </div>
         <!-- Pergunta 4 -->
         <div class="p-4 border rounded-lg bg-gray-100">
           <p class="text-lg font-semibold mb-2">
-            4. Como Feenberg critica as visões tradicionais sobre tecnologia?
+            4. Por que a tecnodiversidade é relevante no contexto contemporâneo?
           </p>
           <form phx-change="validate_answer">
             <input type="hidden" name="question_id" value="4" />
             <div class="space-y-2">
               <label class="block">
                 <input type="radio" name="answer" value="a" class="mr-2" />
-                a) Argumentando que elas ignoram os valores sociais e políticos presentes na tecnologia.
+                a) Porque busca eliminar todas as formas de tecnologia moderna.
               </label>
               <label class="block">
                 <input type="radio" name="answer" value="b" class="mr-2" />
-                b) Defendendo a superioridade do determinismo tecnológico.
+                b) Porque valoriza trajetórias tecnológicas homogêneas.
               </label>
               <label class="block">
                 <input type="radio" name="answer" value="c" class="mr-2" />
-                c) Rejeitando a ideia de que a tecnologia é socialmente construída.
+                c) Porque ajuda a enfrentar desafios globais, como o Antropoceno.
               </label>
               <label class="block">
                 <input type="radio" name="answer" value="d" class="mr-2" />
-                d) Sustentando que a tecnologia não tem impacto ético ou social.
+                d) Porque incentiva a padronização tecnológica em larga escala.
               </label>
             </div>
           </form>
           <p id="answer-feedback-4" class="mt-4 text-green-600 font-medium hidden">
-            Resposta correta: a)
           </p>
         </div>
       </div>
@@ -171,7 +168,7 @@ defmodule TecnodiversidadeWeb.Modulo26Live do
       "1" => "b",
       "2" => "b",
       "3" => "c",
-      "4" => "a"
+      "4" => "c"
     }
 
     is_correct = Map.get(answers, id) == answer

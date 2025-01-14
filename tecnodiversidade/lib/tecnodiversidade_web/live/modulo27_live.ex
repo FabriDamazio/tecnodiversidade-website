@@ -17,13 +17,10 @@ defmodule TecnodiversidadeWeb.Modulo27Live do
 
     <section class="body-text py-8 px-12 max-w-7xl mx-auto">
       <p class="mt-4">
-        Concluímos o módulo 1 nos aprofundando nos estudos de dois pensadores fundamentais no campo da filosofia da tecnologia: Álvaro Vieira Pinto e Andrew Feenberg. Suas contribuições nos convidam a desconstruir visões simplistas e deterministas sobre a tecnologia, revelando-a como um campo complexo, atravessado por relações de poder, valores sociais e possibilidades de transformação.
+        Concluímos o módulo 2 com a introdução ao pensamento de Yuk Hui e seu conceito de tecnodiversidade. Suas contribuições nos convidam a refletir sobre novos modelos de desenvolvimento tecnológico e a importância de valorizarmos a diversidade de técnicas e culturas. Como lembrete, é importante ressaltar que a tecnodiversidade não propõe um retorno às tradições ou a rejeição das tecnologias modernas, mas, sim, a busca e apropriação de tecnologias que considerem as diferentes cosmotécnicas.
       </p>
       <p class="mt-4">
-        Vieira Pinto nos apresentou uma perspectiva crítica compreendendo a tecnologia não como um elemento externo ou neutro, mas como uma produção humana intrinsecamente conectada aos projetos de sociedade. Já Feenberg aprofundou essa discussão através do construtivismo crítico, demonstrando como cada artefato tecnológico carrega em si narrativas políticas, sociais e culturais.
-      </p>
-      <p class="mt-4">
-        No próximo módulo, exploraremos o conceito de tecnodiversidade desenvolvido pelo filósofo Yuk Hui. Suas reflexões nos convidarão a compreender a tecnologia para além de uma lógica ocidental e universal, reconhecendo as múltiplas cosmologias e formas de relação com os sistemas técnicos.
+        No próximo módulo, abordaremos a Educação Profissional e Tecnológica como um espaço de debate para as questões relacionadas à tecnologia e à tecnodiversidade.
       </p>
       <p class="mt-4">
         Até o próximo módulo!
