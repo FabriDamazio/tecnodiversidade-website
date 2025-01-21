@@ -1,14 +1,13 @@
 defmodule TecnodiversidadeWeb.Modulo11Live do
+  use TecnodiversidadeWeb, :live_view
+
   alias Tecnodiversidade.ProgressTracker
   alias Tecnodiversidade.Accounts.User
   alias Tecnodiversidade.Accounts
-  use TecnodiversidadeWeb, :live_view
 
-  @block_id 1
+  @block_id 11
 
   def mount(_params, session, socket) do
-    # terminar a lógica para recuperar o id do user logado e setar seu id no socket
-    # para usa-lo no handle event
     if(session["user_token"] == nil) do
       {:ok, socket, layout: false}
     else
@@ -70,12 +69,8 @@ defmodule TecnodiversidadeWeb.Modulo11Live do
   end
 
   def handle_event("avancar", _params, socket) do
-    case socket.assigns[:user_id] do
-      user_id when is_integer(user_id) ->
-        ProgressTracker.save_user_progress(@block_id, user_id)
-
-      _ ->
-        {:noreply, push_navigate(socket, to: ~p"/modulos/1/pergunta")}
+    if(socket.assigns[:user_id] != nil) do
+      ProgressTracker.save_user_progress(@block_id, socket.assigns[:user_id])
     end
 
     {:noreply, push_navigate(socket, to: ~p"/modulos/1/pergunta")}
