@@ -1,8 +1,30 @@
 defmodule TecnodiversidadeWeb.Modulo33Live do
   use TecnodiversidadeWeb, :live_view
 
-  def mount(_params, _session, socket) do
-    {:ok, socket, layout: false}
+  alias Tecnodiversidade.ProgressTracker
+  alias Tecnodiversidade.Accounts.User
+  alias Tecnodiversidade.Accounts
+
+  @block_id 33
+
+  def mount(_params, session, socket) do
+    if(session["user_token"] == nil) do
+      {:ok, socket, layout: false}
+    else
+      socket =
+        assign_new(
+          socket,
+          :user_id,
+          fn ->
+            case Accounts.get_user_by_session_token(session["user_token"]) do
+              %User{} = user -> user.id
+              _ -> nil
+            end
+          end
+        )
+
+      {:ok, socket, layout: false}
+    end
   end
 
   def render(assigns) do
@@ -193,6 +215,10 @@ defmodule TecnodiversidadeWeb.Modulo33Live do
   end
 
   def handle_event("avancar", _, socket) do
+    if(socket.assigns[:user_id] != nil) do
+      ProgressTracker.save_user_progress(@block_id, socket.assigns[:user_id])
+    end
+
     {:noreply, push_navigate(socket, to: ~p"/modulos/3/quiz")}
   end
 
