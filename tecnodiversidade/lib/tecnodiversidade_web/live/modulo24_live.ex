@@ -84,7 +84,7 @@ defmodule TecnodiversidadeWeb.Modulo24Live do
         </a>
       </p>
     </section>
-    <section class="body-text py-8 px-12 max-w-7xl mx-auto bg-gray-50">
+    <section class="body-text py-8 px-12 max-w-7xl mx-auto">
       <div class="flex justify-between mt-8">
         <button
           type="button"
