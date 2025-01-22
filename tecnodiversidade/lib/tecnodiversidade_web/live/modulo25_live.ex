@@ -54,7 +54,7 @@ defmodule TecnodiversidadeWeb.Modulo25Live do
           <div class="mb-4 text-center">
             <button
               type="submit"
-              class="px-6 py-2 bg-[#FECB37]  font-semibold rounded-lg hover:bg-[#deaf26] transition"
+              class="px-6 py-2 bg-[#F29552]  font-semibold rounded-lg hover:bg-[#deaf26] transition"
             >
               Enviar resposta
             </button>
