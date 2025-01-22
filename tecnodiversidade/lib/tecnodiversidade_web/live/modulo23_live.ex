@@ -32,7 +32,7 @@ defmodule TecnodiversidadeWeb.Modulo23Live do
     <section class="bg-gray-900 text-white">
       <div class="container mx-auto px-4 py-16 flex flex-col items-center text-center space-y-6 sm:space-y-8 lg:space-y-10">
         <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
-          As discussões de tecnodiversidade à partir do Sul Global
+          As discussões de tecnodiversidade à partir da realidade brasileira
         </h1>
       </div>
     </section>
