@@ -40,15 +40,12 @@ defmodule TecnodiversidadeWeb.Modulo31Live do
     <section class="body-text py-8 px-12 max-w-7xl mx-auto">
       <div class="flex justify-center">
         <video class="w-full max-w-3xl h-auto" controls>
-          <source src="/videos/apresentacao_modulo_1.mp4" type="video/mp4" />
+          <source src="/videos/apresentacao_modulo_3.mp4" type="video/mp4" />
           Seu navegador não suporta o elemento de vídeo.
         </video>
       </div>
       <p class="mt-8">
-        No nosso dia a dia, usamos constantemente a palavra "tecnologia", mas você já parou para pensar sobre seus diferentes significados? Será que realmente compreendemos o que é a tecnologia e o que está por trás das transformações vindas com ela? Quem decide os rumos da tecnologia? A quem ela serve? Quais são seus impactos reais?
-      </p>
-      <p class="mt-4">
-        É sobre isso que vamos falar neste módulo, tendo como principais referências os autores Álvaro Vieira Pinto e Andrew Feenberg.
+        Neste último módulo, abordaremos como os conceitos de tecnologia e tecnodiversidade se relacionam com a Educação Profissional e Tecnológica.
       </p>
       <p class="mt-4">
         Bons estudos!
