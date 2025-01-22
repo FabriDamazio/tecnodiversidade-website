@@ -110,7 +110,6 @@ defmodule TecnodiversidadeWeb.Modulo22Live do
       <hr class="my-8" />
     </section>
     <section class="bg-gray-50 body-text py-8 px-12 max-w-7xl mx-auto">
-      <hr class="mb-8" />
       <!-- Resumo -->
       <div class="mb-8">
         <h2 class="title-main font-bold text-gray-800 mb-4">📑 Resumo</h2>
