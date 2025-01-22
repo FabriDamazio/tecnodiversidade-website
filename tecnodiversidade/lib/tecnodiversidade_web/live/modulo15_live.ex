@@ -94,7 +94,6 @@ defmodule TecnodiversidadeWeb.Modulo15Live do
             </div>
           </form>
           <p id="answer-feedback-2" class="mt-4 text-green-600 font-medium hidden">
-            Resposta correta: b)
           </p>
         </div>
         <!-- Pergunta 3 -->
@@ -124,7 +123,6 @@ defmodule TecnodiversidadeWeb.Modulo15Live do
             </div>
           </form>
           <p id="answer-feedback-3" class="mt-4 text-green-600 font-medium hidden">
-            Resposta correta: c)
           </p>
         </div>
         <!-- Pergunta 4 -->
@@ -154,7 +152,6 @@ defmodule TecnodiversidadeWeb.Modulo15Live do
             </div>
           </form>
           <p id="answer-feedback-4" class="mt-4 text-green-600 font-medium hidden">
-            Resposta correta: a)
           </p>
         </div>
       </div>
