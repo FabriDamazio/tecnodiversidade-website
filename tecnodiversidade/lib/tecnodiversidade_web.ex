@@ -17,7 +17,7 @@ defmodule TecnodiversidadeWeb do
   those modules here.
   """
 
-  def static_paths, do: ~w(assets fonts images videos audios favicon.ico robots.txt)
+  def static_paths, do: ~w(assets fonts images videos audios pdfs favicon.ico robots.txt)
 
   def router do
     quote do

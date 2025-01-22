@@ -9,15 +9,24 @@
     </div>
   </section>
 
-  <section class="bg-white py-16">
+  <section class="bg-white py-12">
     <div class="container mx-auto px-4">
       <div class="text-center mb-12">
         <h2 class="title-main text-gray-900 mb-4">Sobre o curso</h2>
         <p class="body-text text-gray-600 text-justify mb-4">
-          O curso "Tecnologia e Tecnodiversidade" é um produto educacional desenvolvido dentro da linha de pesquisa "Práticas Educativas em Educação Profissional e Tecnológica" do Mestrado Profissional em Educação Profissional e Tecnológica em Rede Nacional (PROFEPT).
+          O curso "Tecnologia e Tecnodiversidade" é um produto educacional desenvolvido no âmbito da linha de pesquisa "Práticas Educativas em Educação Profissional e Tecnológica" do Mestrado Profissional em Educação Profissional e Tecnológica em Rede Nacional (PROFEPT).
+        </p>
+        <p class="body-text text-gray-600 text-justify mb-4">
+          Seu conteúdo foi elaborado com base na pesquisa “Intersecções entre Tecnologia e Educação Profissional e Tecnológica: Desafios e Perspectivas para a Tecnodiversidade”, realizada pela mestranda Luciana Garcia dos Reis, sob a orientação da Profa. Dra. Luciana dos Santos Rosenau.
+        </p>
+        <p class="body-text text-gray-600 text-justify mb-4">
+          O objetivo do curso é explorar os conceitos de tecnologia e tecnodiversidade, evidenciando sua importância no contexto contemporâneo e sua relação direta com a Educação Profissional e Tecnológica.
         </p>
         <p class="body-text text-gray-600 text-justify">
-          O objetivo do curso é apresentar os conceitos de tecnologia e tecnodiversidade, destacando sua relevância no contexto contemporâneo. Serão exploradas as interações entre cultura e tecnologia, bem como as implicações sociais e políticas decorrentes dessa relação. O curso incluirá discussões sobre como esses temas se relacionam com a Educação Profissional e Tecnológica, além de oferecer um mapeamento de iniciativas tecnodiversas.
+          Consulte o plano de curso:
+          <a href="/pdfs/plano_curso.pdf" target="_blank" class="text-blue-500 hover:underline">
+            Arquivo PDF aqui
+          </a>
         </p>
       </div>
     </div>
@@ -29,69 +38,89 @@
         <h2 class="title-main text-gray-900">Módulos do curso</h2>
       </div>
       <!-- Componente 1 -->
-      <div class="flex flex-wrap items-center mb-12">
-        <!-- Imagem do Componente -->
-        <div class="w-full md:w-1/2 px-4">
-          <img
-            src="/images/capa_modulo_1.png"
-            alt="Imagem abstrata com componentes eletronicos para ilustrar o Modulo 1"
-            class="rounded-lg shadow-lg"
-          />
+      <a href={~p"/modulos/1/apresentacao"}>
+        <div class="flex flex-wrap items-center mb-12">
+          <!-- Imagem do Componente -->
+          <div class="w-full md:w-1/2 px-4">
+            <img
+              src="/images/capa_modulo_1.png"
+              alt="Imagem abstrata com componentes eletronicos para ilustrar o Modulo 1"
+              class="rounded-lg shadow-lg"
+            />
+          </div>
+          <!-- Título e Descrição do Componente -->
+          <div class="w-full md:w-1/2 px-4">
+            <h3 class="title-main text-gray-900 mb-4">Conceitos de Tecnologias</h3>
+            <ul class="body-text list-disc list-inside text-gray-600">
+              <li>As acepções de tecnologia de Álvaro Vieira Pinto</li>
+              <li>A tecnologia pelo construtivismo crítico de Andrew Feenberg</li>
+            </ul>
+          </div>
         </div>
-        <!-- Título e Descrição do Componente -->
-        <div class="w-full md:w-1/2 px-4">
-          <h3 class="title-main text-gray-900 mb-4">Conceitos de Tecnologias</h3>
-          <ul class="body-text list-disc list-inside text-gray-600">
-            <li>Conceituação de Tecnologias</li>
-            <li>Relações entre Tecnologia, cultura sociedade</li>
-          </ul>
-          <p class="highlight">Carga Horária: 2h</p>
-        </div>
-      </div>
+      </a>
       <!-- Componente 2 -->
-      <div class="flex flex-wrap items-center mb-12">
-        <!-- Imagem do Componente -->
-        <div class="w-full md:w-1/2 px-4 md:order-2">
-          <img
-            src="/images/capa_modulo_2.png"
-            alt="Imagem do Componente 2"
-            class="rounded-lg shadow-lg"
-          />
+      <a href={~p"/modulos/2/apresentacao"}>
+        <div class="flex flex-wrap items-center mb-12">
+          <!-- Imagem do Componente -->
+          <div class="w-full md:w-1/2 px-4 md:order-2">
+            <img
+              src="/images/capa_modulo_2.png"
+              alt="Imagem do Componente 2"
+              class="rounded-lg shadow-lg"
+            />
+          </div>
+          <!-- Título e Descrição do Componente -->
+          <div class="w-full md:w-1/2 px-4 md:order-1">
+            <h3 class="title-main text-gray-900 mb-4">
+              Tecnodiversidade
+            </h3>
+            <ul class="list-disc list-inside text-gray-600">
+              <li>O conceito de tecnodiversidade</li>
+              <li>As discussões de tecnodiversidade à partir da realidade brasileira</li>
+            </ul>
+          </div>
         </div>
-        <!-- Título e Descrição do Componente -->
-        <div class="w-full md:w-1/2 px-4 md:order-1">
-          <h3 class="title-main text-gray-900 mb-4">
-            Tecnodiversidade
-          </h3>
-          <ul class="list-disc list-inside text-gray-600">
-            <li>Conceituação de Tecnodiverdidade</li>
-            <li>Mapeamento de iniciativas tecnodiversas no contexto brasileiro</li>
-          </ul>
-          <p class="highlight">Carga Horária: 2h</p>
-        </div>
-      </div>
+      </a>
       <!-- Componente 3 -->
-      <div class="flex flex-wrap items-center">
-        <!-- Imagem do Componente -->
-        <div class="w-full md:w-1/2 px-4">
-          <img
-            src="/images/capa_modulo_3.png"
-            alt="Imagem do Componente 3"
-            class="rounded-lg shadow-lg"
-          />
+      <a href={~p"/modulos/3/apresentacao"}>
+        <div class="flex flex-wrap items-center">
+          <!-- Imagem do Componente -->
+          <div class="w-full md:w-1/2 px-4">
+            <img
+              src="/images/capa_modulo_3.png"
+              alt="Imagem do Componente 3"
+              class="rounded-lg shadow-lg"
+            />
+          </div>
+          <!-- Título e Descrição do Componente -->
+          <div class="w-full md:w-1/2 px-4">
+            <h3 class="title-main text-gray-900 mb-4">
+              A EPT como espaço de debate para a tecnodiversidade
+            </h3>
+            <ul class="list-disc list-inside text-gray-600">
+              <li>A questão da tecnologia na educação profissional e tecnológica</li>
+              <li>A tecnodiversidade na educação profissional e tecnológica</li>
+            </ul>
+          </div>
         </div>
-        <!-- Título e Descrição do Componente -->
-        <div class="w-full md:w-1/2 px-4">
-          <h3 class="title-main text-gray-900 mb-4">
-            A EPT como espaço de debate para a tecnodiversidade
-          </h3>
-          <ul class="list-disc list-inside text-gray-600">
-            <li>Interseções entre tecnodiversidade e educação profissional e tecnológica</li>
-            <li>Desafios e oportunidades da tecnodiversidade na educação profissional</li>
-          </ul>
-          <p class="highlight">Carga Horária: 2h</p>
-        </div>
-      </div>
+      </a>
     </div>
+    <hr class="my-8" />
+    <h2 class="title-main text-gray-900 text-center">
+      Avalie o curso
+    </h2>
+    <p class="body-text text-gray-600 my-4 text-center">
+      Sua opinião é valiosa! Avalie o curso e nos ajude a melhorar cada vez mais.
+    </p>
+    <p class="body-text text-gray-600 text-center">
+      Acesse o formulário de avaliação:
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLScYRsUSgMtGlixfrSMGn0PiMhSywVSbxaGFYiDQ7W_1p4WOVQ/viewform"
+        target="_blank"
+        class="text-blue-500 hover:underline"
+      >
+        https://docs.google.com/forms/d/e/1FAIpQLScYRsUSgMtGlixfrSMGn0PiMhSywVSbxaGFYiDQ7W_1p4WOVQ/viewform
+      </a>
+    </p>
   </section>
 </div>
