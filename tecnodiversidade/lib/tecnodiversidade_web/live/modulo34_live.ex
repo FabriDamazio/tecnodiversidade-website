@@ -41,26 +41,26 @@ defmodule TecnodiversidadeWeb.Modulo34Live do
         <!-- Pergunta 1 -->
         <div class="p-4 border rounded-lg bg-gray-100">
           <p class="text-lg font-semibold mb-2">
-            1. Qual das seguintes afirmativas melhor descreve a visão de Álvaro Vieira Pinto sobre tecnologia?
+            1. De acordo com o conceito de tecnodiversidade, o que se busca promover na Educação Profissional e Tecnológica?
           </p>
           <form phx-change="validate_answer">
             <input type="hidden" name="question_id" value="1" />
             <div class="space-y-2">
               <label class="block">
                 <input type="radio" name="answer" value="a" class="mr-2" />
-                a) É composta apenas por artefatos e ferramentas.
+                a) A padronização universal das tecnologias utilizadas nos cursos.
               </label>
               <label class="block">
                 <input type="radio" name="answer" value="b" class="mr-2" />
-                b) É resultado do trabalho humano para transformar a realidade.
+                b) A valorização de diferentes cosmotécnicas e saberes técnicos e tecnológicos.
               </label>
               <label class="block">
                 <input type="radio" name="answer" value="c" class="mr-2" />
-                c) É sempre neutra e independente de fatores sociais.
+                c) A exclusão de formas tradicionais de conhecimento técnico.
               </label>
               <label class="block">
                 <input type="radio" name="answer" value="d" class="mr-2" />
-                d) É um conjunto fixo de regras técnicas universais.
+                d) A adoção exclusiva de tecnologias ocidentais avançadas.
               </label>
             </div>
           </form>
@@ -69,92 +69,86 @@ defmodule TecnodiversidadeWeb.Modulo34Live do
         <!-- Pergunta 2 -->
         <div class="p-4 border rounded-lg bg-gray-100">
           <p class="text-lg font-semibold mb-2">
-            2. O que Vieira Pinto critica na ideologização da tecnologia?
+            2. O conceito de tecnodiversidade na Educação Profissional e Tecnológica (EPT) está relacionado a:
           </p>
           <form phx-change="validate_answer">
             <input type="hidden" name="question_id" value="2" />
             <div class="space-y-2">
               <label class="block">
                 <input type="radio" name="answer" value="a" class="mr-2" />
-                a) A valorização do trabalho humano na criação de artefatos tecnológicos.
+                a) Padronização global de tecnologias para a educação.
               </label>
               <label class="block">
                 <input type="radio" name="answer" value="b" class="mr-2" />
-                b) A transformação da técnica em uma entidade autônoma, separada da ação humana.
+                b) Desenvolvimento de tecnologias exclusivas para grandes centros urbanos.
               </label>
               <label class="block">
                 <input type="radio" name="answer" value="c" class="mr-2" />
-                c) A aceitação de diferentes projetos tecnológicos para cada sociedade.
+                c) Reconhecimento e valorização de diferentes formas de saber técnico e tecnológico.
               </label>
               <label class="block">
                 <input type="radio" name="answer" value="d" class="mr-2" />
-                d) A abordagem técnica como sinônimo de desenvolvimento social.
+                d) Eliminação de tecnologias tradicionais em favor das mais avançadas.
               </label>
             </div>
           </form>
-          <p id="answer-feedback-2" class="mt-4 text-green-600 font-medium hidden">
-            Resposta correta: b)
-          </p>
+          <p id="answer-feedback-2" class="mt-4 text-green-600 font-medium hidden"></p>
         </div>
         <!-- Pergunta 3 -->
         <div class="p-4 border rounded-lg bg-gray-100">
           <p class="text-lg font-semibold mb-2">
-            3. De acordo com Feenberg, qual é o principal objetivo do Construtivismo Crítico?
+            3. Qual é o principal objetivo da tecnologia social na Educação Profissional e Tecnológica?
           </p>
           <form phx-change="validate_answer">
             <input type="hidden" name="question_id" value="3" />
             <div class="space-y-2">
               <label class="block">
                 <input type="radio" name="answer" value="a" class="mr-2" />
-                a) Defender a neutralidade da tecnologia.
+                a) Implementar tecnologias de ponta sem considerar o contexto local.
               </label>
               <label class="block">
                 <input type="radio" name="answer" value="b" class="mr-2" />
-                b) Provar que a tecnologia é determinada exclusivamente por fatores técnicos.
+                b) Resolver problemas sociais e ambientais por meio de processos participativos.
               </label>
               <label class="block">
                 <input type="radio" name="answer" value="c" class="mr-2" />
-                c) Promover o controle democrático e a participação social no desenvolvimento tecnológico.
+                c) Promover a competição tecnológica entre regiões.
               </label>
               <label class="block">
                 <input type="radio" name="answer" value="d" class="mr-2" />
-                d) Demonstrar que a tecnologia é completamente autônoma.
+                d) Ignorar a diversidade cultural em favor de soluções universais.
               </label>
             </div>
           </form>
-          <p id="answer-feedback-3" class="mt-4 text-green-600 font-medium hidden">
-            Resposta correta: c)
-          </p>
+          <p id="answer-feedback-3" class="mt-4 text-green-600 font-medium hidden"></p>
         </div>
         <!-- Pergunta 4 -->
         <div class="p-4 border rounded-lg bg-gray-100">
           <p class="text-lg font-semibold mb-2">
-            4. Como Feenberg critica as visões tradicionais sobre tecnologia?
+            4. Qual o papel da EPT na promoção da tecnodiversidade, segundo o conceito de cosmotécnicas?
           </p>
           <form phx-change="validate_answer">
             <input type="hidden" name="question_id" value="4" />
             <div class="space-y-2">
               <label class="block">
                 <input type="radio" name="answer" value="a" class="mr-2" />
-                a) Argumentando que elas ignoram os valores sociais e políticos presentes na tecnologia.
+                a) Implementar tecnologias globais sem adaptação ao contexto local.
               </label>
               <label class="block">
                 <input type="radio" name="answer" value="b" class="mr-2" />
-                b) Defendendo a superioridade do determinismo tecnológico.
+                b) Valorizar diferentes formas de interação entre técnica, cultura e sociedade.
               </label>
               <label class="block">
                 <input type="radio" name="answer" value="c" class="mr-2" />
-                c) Rejeitando a ideia de que a tecnologia é socialmente construída.
+                c) Substituir conhecimentos locais por técnicas tecnológicas universais.
               </label>
               <label class="block">
                 <input type="radio" name="answer" value="d" class="mr-2" />
-                d) Sustentando que a tecnologia não tem impacto ético ou social.
+                d) Priorizar exclusivamente as demandas econômicas em detrimento das culturais.
               </label>
             </div>
           </form>
-          <p id="answer-feedback-4" class="mt-4 text-green-600 font-medium hidden">
-            Resposta correta: a)
-          </p>
+          <p id="answer-feedback-4" class="mt-4 text-green-600 font-medium hidden"></p>
         </div>
       </div>
 
@@ -194,9 +188,9 @@ defmodule TecnodiversidadeWeb.Modulo34Live do
   def handle_event("validate_answer", %{"question_id" => id, "answer" => answer}, socket) do
     answers = %{
       "1" => "b",
-      "2" => "b",
-      "3" => "c",
-      "4" => "a"
+      "2" => "c",
+      "3" => "b",
+      "4" => "b"
     }
 
     is_correct = Map.get(answers, id) == answer
