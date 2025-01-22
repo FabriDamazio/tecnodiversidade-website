@@ -39,16 +39,19 @@ defmodule TecnodiversidadeWeb.Modulo35Live do
 
     <section class="body-text py-8 px-12 max-w-7xl mx-auto">
       <p class="mt-4">
-        Concluímos o módulo 1 nos aprofundando nos estudos de dois pensadores fundamentais no campo da filosofia da tecnologia: Álvaro Vieira Pinto e Andrew Feenberg. Suas contribuições nos convidam a desconstruir visões simplistas e deterministas sobre a tecnologia, revelando-a como um campo complexo, atravessado por relações de poder, valores sociais e possibilidades de transformação.
+        Concluímos este curso introdutório aos conceitos de tecnologia e de tecnodiversidade. Buscamos mostrar como estes conceitos se relacionam com a Educação Profissional e Tecnológica, especialmente no âmbito dos Institutos Federais de Educação, Ciência e Tecnologia.
       </p>
       <p class="mt-4">
-        Vieira Pinto nos apresentou uma perspectiva crítica compreendendo a tecnologia não como um elemento externo ou neutro, mas como uma produção humana intrinsecamente conectada aos projetos de sociedade. Já Feenberg aprofundou essa discussão através do construtivismo crítico, demonstrando como cada artefato tecnológico carrega em si narrativas políticas, sociais e culturais.
+        A tecnodiversidade oferece um novo olhar para a educação profissional e tecnológica, incentivando o diálogo entre diferentes saberes, a valorização da diversidade cultural e a busca por futuros tecnológicos mais inclusivos e sustentáveis. A aplicação da tecnodiversidade na educação pode contribuir para o desenvolvimento de indivíduos mais críticos, criativos e engajados com seus contextos sociais e ambientais e com o mundo do trabalho.
       </p>
       <p class="mt-4">
-        No próximo módulo, exploraremos o conceito de tecnodiversidade desenvolvido pelo filósofo Yuk Hui. Suas reflexões nos convidarão a compreender a tecnologia para além de uma lógica ocidental e universal, reconhecendo as múltiplas cosmologias e formas de relação com os sistemas técnicos.
+        Esperamos que você continue aprendendo sobre o tema e contribua para as discussões que estão surgindo nessa área.
       </p>
       <p class="mt-4">
-        Até o próximo módulo!
+        Obrigada pela participação!
+      </p>
+      <p class="mt-4">
+        Obs.: Por favor, não se esqueça de avaliar o curso. Sua opinião é essencial para nos ajudar a aprimorar continuamente!
       </p>
       <div class="flex justify-between mt-8">
         <button
