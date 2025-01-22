@@ -208,7 +208,7 @@ defmodule TecnodiversidadeWeb.Modulo33Live do
         </div>
         <div class="mb-4">
           <p class="text-gray-700">
-            <strong>Educação Tecnologica:</strong>
+            <strong>Educação Tecnológica:</strong>
             uma abordagem que visa a formação de indivíduos capazes de compreender e interagir criticamente com a tecnologia. Ela vai além do simples treinamento técnico, buscando desenvolver uma compreensão ampla da tecnologia, seus fundamentos científicos, culturais, seus impactos sociais e suas aplicações práticas.
           </p>
         </div>

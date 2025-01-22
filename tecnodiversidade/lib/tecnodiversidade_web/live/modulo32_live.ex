@@ -38,7 +38,7 @@ defmodule TecnodiversidadeWeb.Modulo32Live do
     </section>
 
     <section class="body-text py-8 px-12 max-w-7xl mx-auto">
-      <p class="mt-8">
+      <p class="my-8">
         Conheça a linha do tempo da Educação Profissional e Tecnológica (EPT) no Brasil.
       </p>
       <div>
