@@ -42,6 +42,17 @@ defmodule TecnodiversidadeWeb.Modulo24Live do
         Descubra agora iniciativas que apresentam a ideia de tecnodiversidade:
       </p>
       <p class="highlight mt-4">
+        Milpamerica
+      </p>
+      <p class="mt-4">
+        Milpamerica.org é uma rede social autônoma criada para conectar aqueles que defendem o território com aqueles que lutam pela justiça climática.
+        O modelo de governança da plataforma é baseado em assembleias e ela é de código aberto. A iniciativa surgiu de defensores do território, pertencentes a diversos povos indígenas do México, Guatemala, Honduras, El Salvador e Costa Rica.
+        Saiba mais:
+        <a href="https://milpamerica.org/" target="_blank" class="text-blue-500 hover:underline">
+          https://milpamerica.org/
+        </a>
+      </p>
+      <p class="highlight mt-4">
         Technodiversity: aliança global e multissetorial
       </p>
       <p class="mt-4">

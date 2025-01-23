@@ -39,7 +39,7 @@ defmodule TecnodiversidadeWeb.Modulo14Live do
 
     <section class="body-text py-8 px-12 max-w-7xl mx-auto">
       <p class="mt-4">
-        Esta etapa do curso online pretende explorar a perspectiva crítica da tecnologia desenvolvida pelo filósofo contemporâneo Andrew Feenberg. O ponto central de sua teoria está na crítica à neutralidade da tecnologia, argumentando que ela é intrinsecamente moldada por valores sociais e políticos. Ele apresenta quatro perspectivas que direcionam as discussões sobre tecnologia:
+        Esta etapa do curso online pretende explorar a perspectiva crítica da tecnologia desenvolvida pelo filósofo contemporâneo Andrew Feenberg. O ponto central de sua teoria está na crítica à neutralidade da tecnologia, argumentando que ela é intrinsecamente moldada por valores sociais e políticos. Feenberg (2013a) apresenta quatro perspectivas que direcionam as discussões sobre tecnologia:
       </p>
       <p class="highlight mt-4">
         Instrumentalismo
@@ -78,7 +78,7 @@ defmodule TecnodiversidadeWeb.Modulo14Live do
         </video>
       </div>
       <p class="mt-4 mb-8">
-        Como acompanhamos na vídeo-aula, Feenberg afirma que as tecnologias são carregadas de valores e que seu desenvolvimento é determinado tanto por questões técnicas quanto por critérios sociais. Assim, os objetos, além de técnicos, são também sociais. Vimos também como Feenberg destaca o potencial de liberdade e controle democrático no desenvolvimento e design tecnológico. Nessa perspectiva, a sociedade não se transforma apenas por meio das instituições políticas, mas também por meio das infraestruturas tecnológicas. Com a articulação de grupos sociais, podem ocorrer reconfigurações dessas infraestruturas tecnológicas e a construção de outros possíveis mundos. Nesse sentido, o autor defende a democratização da tecnologia, onde o processo de desenvolvimento das tecnologias deve ser democratizado, proporcionando conhecimento técnico e identificando as necessidades da sociedade, revertendo a lógica atual que privilegia e mantém a hegemonia tecnológica.
+        Como acompanhamos na vídeo-aula, Feenberg (2013b) afirma que as tecnologias são carregadas de valores e que seu desenvolvimento é determinado tanto por questões técnicas quanto por critérios sociais. Assim, os objetos, além de técnicos, são também sociais. Vimos também como Feenberg (2013b) destaca o potencial de liberdade e controle democrático no desenvolvimento e design tecnológico. Nessa perspectiva, a sociedade não se transforma apenas por meio das instituições políticas, mas também por meio das infraestruturas tecnológicas. Com a articulação de grupos sociais, podem ocorrer reconfigurações dessas infraestruturas tecnológicas e a construção de outros possíveis mundos. Nesse sentido, o autor defende a democratização da tecnologia, onde o processo de desenvolvimento das tecnologias deve ser democratizado, proporcionando conhecimento técnico e identificando as necessidades da sociedade, revertendo a lógica atual que privilegia e mantém a hegemonia tecnológica.
       </p>
       <hr class="mb-8" />
       <h2 class="font-bold">
@@ -92,7 +92,7 @@ defmodule TecnodiversidadeWeb.Modulo14Live do
         >https://www.sfu.ca/~andrewf/Coletanea.pdf</a>. Acesso em: 10 dez. 2024.
       </p>
       <p class="mt-4 mb-8 ">
-        FEENBERG, Andrew. Racionalização subversiva: tecnologia, poder e democracia. In: NEDER, Ricardo Toledo. <b>A teoria crítica de Andrew Feenberg:</b> racionalização democrática, poder e tecnologia. 2ª, Brasília: Observatório do Movimento pela Tecnologia Social na América Latina/CDS/UnB/Capes, 2013a. p. 67-98. Disponível em: <a
+        FEENBERG, Andrew. Racionalização subversiva: tecnologia, poder e democracia. In: NEDER, Ricardo Toledo. <b>A teoria crítica de Andrew Feenberg:</b> racionalização democrática, poder e tecnologia. 2ª, Brasília: Observatório do Movimento pela Tecnologia Social na América Latina/CDS/UnB/Capes, 2013b. p. 67-98. Disponível em: <a
           href="https://www.sfu.ca/~andrewf/Coletanea.pdf"
           target="_blank"
           class="text-blue-500 hover:underline"

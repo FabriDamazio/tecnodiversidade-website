@@ -53,7 +53,7 @@ defmodule TecnodiversidadeWeb.Modulo13Live do
         <!-- Texto à direita -->
         <div>
           <p class="mt-4">
-            Para Álvaro Vieira Pinto, a tecnologia não se configura apenas como artefatos ou ferramentas, mas um modo de capacidade imaginativa que o homem utiliza para transformar a realidade. Para ele, a tecnologia é resultado do trabalho humano para produzir a sua existência.
+            Para Álvaro Vieira Pinto (2005), a tecnologia não se configura apenas como artefatos ou ferramentas, mas um modo de capacidade imaginativa que o homem utiliza para transformar a realidade. Para ele, a tecnologia é resultado do trabalho humano para produzir a sua existência.
           </p>
           <p>
             Em sua obra “O Conceito de Tecnologia” publicada em 2005, Vieira Pinto identifica quatro significados centrais para a tecnologia:

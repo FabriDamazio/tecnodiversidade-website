@@ -51,7 +51,7 @@ defmodule TecnodiversidadeWeb.Modulo22Live do
         </video>
       </div>
       <p class="mt-8">
-        Partindo de uma análise histórica, Hui afirma que a competição tecnológica do século XX definiu a geopolítica e a história. Além disso, difundiu a ideia de uma tecnologia moderna, de caráter meramente instrumental, como algo homogêneo e universal e, nesse sentido, separado das outras dimensões da sociedade.
+        Partindo de uma análise histórica, Hui (2020) afirma que a competição tecnológica do século XX definiu a geopolítica e a história. Além disso, difundiu a ideia de uma tecnologia moderna, de caráter meramente instrumental, como algo homogêneo e universal e, nesse sentido, separado das outras dimensões da sociedade.
       </p>
       <p class="mt-4">
         Esse universalismo tecnológico desconsiderou os conhecimentos locais, os contextos culturais e as necessidades específicas de cada povo. Como resultado, muitas formas tradicionais e alternativas de tecnologia foram ignoradas ou desvalorizadas.
@@ -63,7 +63,7 @@ defmodule TecnodiversidadeWeb.Modulo22Live do
         Tecnodiversidade como Alternativa
       </p>
       <p class="mt-4">
-        Como uma possível forma de equilibrar a monotecnologização e alterar modelo de desenvolvimento tecnológico, Hui formula o conceito de Tecnodiversidade, entendido como uma forma de abordar a diversidade tecnológica presente nas diferentes regiões do mundo, buscando uma compreensão da tecnologia e da cultura para a criação de novas trajetórias tecnológicas. Ainda, para o autor, cada povo tem suas cosmotécnicas, que é a unificação do cosmos (universo) e da moral por meio de atividades técnicas. Seria, portanto, a ideia de que diferentes culturas têm diferentes abordagens para a tecnologia.
+        Como uma possível forma de equilibrar a monotecnologização e alterar modelo de desenvolvimento tecnológico, Hui (2020) formula o conceito de Tecnodiversidade, entendido como uma forma de abordar a diversidade tecnológica presente nas diferentes regiões do mundo, buscando uma compreensão da tecnologia e da cultura para a criação de novas trajetórias tecnológicas. Ainda, para o autor, cada povo tem suas cosmotécnicas, que é a unificação do cosmos (universo) e da moral por meio de atividades técnicas. Seria, portanto, a ideia de que diferentes culturas têm diferentes abordagens para a tecnologia.
       </p>
       <p class="mt-4">
         A multiplicidade de cosmotécnicas sugere que não existe apenas uma ou duas técnicas universais, mas sim muitas abordagens que variam conforme a moralidade e o cosmos de cada cultura. Para enfrentar as crises contemporâneas — como o Antropoceno e suas implicações — é essencial rearticular a questão da tecnologia, buscando futuros tecnológicos diversos tendo em mente a concepção de cosmotécnicas distintas.
@@ -71,7 +71,7 @@ defmodule TecnodiversidadeWeb.Modulo22Live do
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-center mt-4">
         <div>
           <p class="mt-4">
-            Hui ilustra o mito da universalidade técnica ao discutir o uso de pesticidas como uma solução global para pragas em plantações, mas que dependem de fatores locais como ar, clima, etc., para funcionar efetivamente.
+            Hui (2020) ilustra o mito da universalidade técnica ao discutir o uso de pesticidas como uma solução global para pragas em plantações, mas que dependem de fatores locais como ar, clima, etc., para funcionar efetivamente.
           </p>
           <p class="mt-4">
             No Brasil, a técnica agrossilvipastoril já se mostrou como uma alternativa ao uso de pesticidas para a produção, sendo uma possibilidade que considera as técnicas e os aspectos locais, uma possível cosmotécnica.
@@ -96,7 +96,7 @@ defmodule TecnodiversidadeWeb.Modulo22Live do
         Bibliografia básica
       </h2>
       <p class="mt-4">
-        HUI, Yuk. Cosmotécnica como cosmopolítica. IN: HUI, Yuk. <b>Tecnodiversidade.</b>
+        HUI, Yuk. Cosmotécnica como cosmopolítica. In: HUI, Yuk. <b>Tecnodiversidade.</b>
         São Paulo: Ubu, 2020. p. 21- 46.
       </p>
       <p class="mt-4 mb-8 ">
