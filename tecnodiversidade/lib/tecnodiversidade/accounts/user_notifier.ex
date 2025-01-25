@@ -8,7 +8,7 @@ defmodule Tecnodiversidade.Accounts.UserNotifier do
     email =
       new()
       |> to(recipient)
-      |> from({"Tecnodiversidade", "contact@example.com"})
+      |> from({"Tecnodiversidade", "contato@tecnodiversidade.com"})
       |> subject(subject)
       |> text_body(body)
 
@@ -21,17 +21,17 @@ defmodule Tecnodiversidade.Accounts.UserNotifier do
   Deliver instructions to confirm account.
   """
   def deliver_confirmation_instructions(user, url) do
-    deliver(user.email, "Confirmation instructions", """
+    deliver(user.email, "Instruções de Confirmação", """
 
     ==============================
 
-    Hi #{user.email},
+    Olá #{user.email},
 
-    You can confirm your account by visiting the URL below:
+    Você pode confirmar sua conta visitando o link abaixo:
 
     #{url}
 
-    If you didn't create an account with us, please ignore this.
+    Se você não criou esta conta, por favor ignore este e-mail.
 
     ==============================
     """)
@@ -41,17 +41,17 @@ defmodule Tecnodiversidade.Accounts.UserNotifier do
   Deliver instructions to reset a user password.
   """
   def deliver_reset_password_instructions(user, url) do
-    deliver(user.email, "Reset password instructions", """
+    deliver(user.email, "Instruções para redefinição de senha", """
 
     ==============================
 
-    Hi #{user.email},
+    Olá #{user.email},
 
-    You can reset your password by visiting the URL below:
+    Você pode redefinir sua senha visitando o link abaixo:
 
     #{url}
 
-    If you didn't request this change, please ignore this.
+    Se você não requisitou esta troca, por favor ignore este e-mail.
 
     ==============================
     """)
@@ -61,17 +61,17 @@ defmodule Tecnodiversidade.Accounts.UserNotifier do
   Deliver instructions to update a user email.
   """
   def deliver_update_email_instructions(user, url) do
-    deliver(user.email, "Update email instructions", """
+    deliver(user.email, "Instruções para atualização do endereço do e-mail", """
 
     ==============================
 
-    Hi #{user.email},
+    Olá #{user.email},
 
-    You can change your email by visiting the URL below:
+    Você pode trocar seu e-mail visitando o link abaixo:
 
     #{url}
 
-    If you didn't request this change, please ignore this.
+    Se você não requisitou esta troca, por favor ignore este e-mail.
 
     ==============================
     """)
