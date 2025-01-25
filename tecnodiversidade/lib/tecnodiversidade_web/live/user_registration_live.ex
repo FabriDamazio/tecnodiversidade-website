@@ -55,11 +55,12 @@ defmodule TecnodiversidadeWeb.UserRegistrationLive do
   def handle_event("save", %{"user" => user_params}, socket) do
     case Accounts.register_user(user_params) do
       {:ok, user} ->
-        {:ok, _} =
-          Accounts.deliver_user_confirmation_instructions(
-            user,
-            &url(~p"/users/confirm/#{&1}")
-          )
+        # utilizar quando tiver o servidor de e-mail configurado
+        # {:ok, _} =
+        #    Accounts.deliver_user_confirmation_instructions(
+        #    user,
+        #   &url(~p"/users/confirm/#{&1}")
+        #  )
 
         changeset = Accounts.change_user_registration(user)
         {:noreply, socket |> assign(trigger_submit: true) |> assign_form(changeset)}
