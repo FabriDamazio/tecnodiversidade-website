@@ -15,8 +15,8 @@ defmodule TecnodiversidadeWeb.UserLoginLive do
       </.header>
 
       <.simple_form for={@form} id="login_form" action={~p"/users/log_in"} phx-update="ignore">
-        <.input field={@form[:email]} type="email" label="E-mail" required />
-        <.input field={@form[:password]} type="password" label="Senha" required />
+        <.input field={@form[:email]} type="email" label="E-mail" />
+        <.input field={@form[:password]} type="password" label="Senha" />
 
         <:actions>
           <.input field={@form[:remember_me]} type="checkbox" label="Me mantenha conectado" />

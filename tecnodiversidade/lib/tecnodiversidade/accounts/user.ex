@@ -44,16 +44,16 @@ defmodule Tecnodiversidade.Accounts.User do
 
   defp validate_email(changeset, opts) do
     changeset
-    |> validate_required([:email])
+    |> validate_required([:email], message: "o e-mail é obrigatório")
     |> validate_format(:email, ~r/^[^\s]+@[^\s]+$/, message: "deve ter @ e não conter espaços")
-    |> validate_length(:email, max: 160)
+    |> validate_length(:email, max: 160, message: "o e-mail deve ter no máximo 160 caracteres")
     |> maybe_validate_unique_email(opts)
   end
 
   defp validate_password(changeset, opts) do
     changeset
-    |> validate_required([:password])
-    |> validate_length(:password, min: 12, max: 72)
+    |> validate_required([:password], message: "informe a senha")
+    |> validate_length(:password, min: 12, max: 72, message: "deve ter pelo menos 12 e no máximo 72 caracteres")
     # Examples of additional password validation:
     # |> validate_format(:password, ~r/[a-z]/, message: "at least one lower case character")
     # |> validate_format(:password, ~r/[A-Z]/, message: "at least one upper case character")
@@ -81,8 +81,8 @@ defmodule Tecnodiversidade.Accounts.User do
   defp maybe_validate_unique_email(changeset, opts) do
     if Keyword.get(opts, :validate_email, true) do
       changeset
-      |> unsafe_validate_unique(:email, Tecnodiversidade.Repo)
-      |> unique_constraint(:email)
+      |> unsafe_validate_unique(:email, Tecnodiversidade.Repo, message: "este e-mail já esta em uso")
+      |> unique_constraint(:email, message: "este e-mail já esta em uso")
     else
       changeset
     end

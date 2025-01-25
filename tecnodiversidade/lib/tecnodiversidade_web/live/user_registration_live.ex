@@ -30,8 +30,8 @@ defmodule TecnodiversidadeWeb.UserRegistrationLive do
           Algo deu errado, verifique os erros abaixo.
         </.error>
 
-        <.input field={@form[:email]} type="email" label="E-mail" required />
-        <.input field={@form[:password]} type="password" label="Senha" required />
+        <.input field={@form[:email]} type="email" label="E-mail" />
+        <.input field={@form[:password]} type="password" label="Senha" />
 
         <:actions>
           <.button phx-disable-with="Criando conta..." class="w-full">Criar Conta</.button>
