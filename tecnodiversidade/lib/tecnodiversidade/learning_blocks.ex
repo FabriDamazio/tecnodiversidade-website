@@ -2,7 +2,7 @@ defmodule Tecnodiversidade.LearningBlocks do
   alias Tecnodiversidade.LearningBlocks.LearningBlock
 
   @blocks [
-    %LearningBlock{id: 11, url: "/modulos/1/apresentacao"},
+    %LearningBlock{id: 11, url: "/modulos/1/apresentacao", type: :start},
     %LearningBlock{id: 12, url: "/modulos/1/pergunta"},
     %LearningBlock{id: 13, url: "/modulos/1/conceito-tecnologia"},
     %LearningBlock{id: 14, url: "/modulos/1/conceito-tecnologia-feenberg"},
@@ -19,10 +19,10 @@ defmodule Tecnodiversidade.LearningBlocks do
     %LearningBlock{id: 32, url: "/modulos/3/questao-tecnologia-ept"},
     %LearningBlock{id: 33, url: "/modulos/3/tecnodiversidade-ept"},
     %LearningBlock{id: 34, url: "/modulos/3/quiz"},
-    %LearningBlock{id: 35, url: "/modulos/3/encerramento"},
+    %LearningBlock{id: 35, url: "/modulos/3/encerramento", type: :end},
   ]
 
-  @spec get(integer()) :: LearningBlock.t()
+  @spec get(integer() | nil) :: LearningBlock.t()
   def get(block_id) when is_integer(block_id) do
     %LearningBlock{} = block = Enum.find(@blocks, fn x -> x.id == block_id end)
     block

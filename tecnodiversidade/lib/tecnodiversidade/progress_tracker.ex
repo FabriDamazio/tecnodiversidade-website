@@ -24,28 +24,21 @@ defmodule Tecnodiversidade.ProgressTracker do
     end
   end
 
-  def get_next_block_url(user_id) do
+  @spec get_next_block(integer()) :: LearningBlock.t()
+  def get_next_block(user_id) when is_integer(user_id) do
     user_progress =
-      user_id
-      |> get_next_block()
+      Repo.one(
+        from x in UserProgress,
+          where: x.user_id == ^user_id,
+          order_by: [desc: x.block_id],
+          limit: 1
+      )
 
-    %LearningBlock{} =
-      block =
-      get_in(user_progress.block_id)
-      |> LearningBlocks.get()
-
-    block.url
+    get_in(user_progress.block_id)
+    |> LearningBlocks.get()
   end
 
-  @spec get_next_block(integer()) :: UserProgress.t() | nil
-  defp get_next_block(user_id) when is_integer(user_id) do
-    Repo.one(
-      from x in UserProgress,
-        where: x.user_id == ^user_id,
-        order_by: [desc: x.block_id],
-        limit: 1
-    )
+  def get_next_block(user_id) when is_nil(user_id) do
+    LearningBlocks.get(user_id)
   end
-
-  defp get_next_block(user_id) when is_nil(user_id), do: nil
 end

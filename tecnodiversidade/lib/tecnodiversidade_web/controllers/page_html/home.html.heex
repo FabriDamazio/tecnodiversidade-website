@@ -10,15 +10,45 @@
   </section>
   <%= if @current_user do %>
     <div class="mt-4 border border-black p-8 rounded-md bg-gray-50 container mx-auto ">
-      <p class="text-gray-800 font-medium text-center mb-3">Você já iniciou o curso. Gostaria de retomar o curso de onde parou?</p>
-      <div class="flex justify-center">
-        <a
-          href={@next_block_url}
-          class="bg-[#FECB37] font-semibold rounded-lg hover:bg-[#deaf26] px-4 py-2 transition-colors"
-        >
-          Ir para o módulo
-        </a>
-      </div>
+      <%= case @next_block.type do %>
+        <% :start -> %>
+          <p class="text-gray-800 font-medium text-center mb-3">
+            Sua conta já esta criada e esta tudo certo para iniciar o curso
+          </p>
+          <div class="flex justify-center">
+            <a
+              href={@next_block.url}
+              class="bg-[#FECB37] font-semibold rounded-lg hover:bg-[#deaf26] px-4 py-2 transition-colors"
+            >
+              Iniciar o curso
+            </a>
+          </div>
+        <% :end -> %>
+          <p class="text-gray-800 font-medium text-center mb-3">
+            Parabéns, você concluiu o curso! Sua avaliaçao é muito importante.
+          </p>
+          <div class="flex justify-center">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScYRsUSgMtGlixfrSMGn0PiMhSywVSbxaGFYiDQ7W_1p4WOVQ/viewform"
+              target="_blank"
+              class="bg-[#FECB37] font-semibold rounded-lg hover:bg-[#deaf26] px-4 py-2 transition-colors"
+            >
+              Avaliar o curso
+            </a>
+          </div>
+        <% _ -> %>
+          <p class="text-gray-800 font-medium text-center mb-3">
+            Você já iniciou o curso. Gostaria de retomar o curso de onde parou?
+          </p>
+          <div class="flex justify-center">
+            <a
+              href={@next_block.url}
+              class="bg-[#FECB37] font-semibold rounded-lg hover:bg-[#deaf26] px-4 py-2 transition-colors"
+            >
+              Ir para o módulo
+            </a>
+          </div>
+      <% end %>
     </div>
   <% end %>
   <section class="bg-white py-12">

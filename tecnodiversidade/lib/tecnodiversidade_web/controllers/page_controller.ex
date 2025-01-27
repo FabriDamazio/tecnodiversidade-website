@@ -4,11 +4,11 @@ defmodule TecnodiversidadeWeb.PageController do
   alias Tecnodiversidade.ProgressTracker
 
   def home(conn, _params) do
-    next_block_url =
+    next_block =
       get_in(conn.assigns.current_user.id)
-      |> ProgressTracker.get_next_block_url()
+      |> ProgressTracker.get_next_block()
 
-    render(conn, :home, layout: false, next_block_url: next_block_url)
+    render(conn, :home, layout: false, next_block: next_block)
   end
 
   def recomendacoes(conn, _params) do
