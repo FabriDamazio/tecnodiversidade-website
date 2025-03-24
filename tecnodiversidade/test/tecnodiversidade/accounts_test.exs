@@ -53,8 +53,8 @@ defmodule Tecnodiversidade.AccountsTest do
       {:error, changeset} = Accounts.register_user(%{})
 
       assert %{
-               password: ["can't be blank"],
-               email: ["can't be blank"]
+               password: ["informe a senha"],
+               email: ["o e-mail é obrigatório"]
              } = errors_on(changeset)
     end
 
@@ -62,26 +62,26 @@ defmodule Tecnodiversidade.AccountsTest do
       {:error, changeset} = Accounts.register_user(%{email: "not valid", password: "not valid"})
 
       assert %{
-               email: ["must have the @ sign and no spaces"],
-               password: ["should be at least 12 character(s)"]
+               email: ["deve ter @ e não conter espaços"],
+               password: ["deve ter pelo menos 12 e no máximo 72 caracteres"]
              } = errors_on(changeset)
     end
 
     test "validates maximum values for email and password for security" do
       too_long = String.duplicate("db", 100)
       {:error, changeset} = Accounts.register_user(%{email: too_long, password: too_long})
-      assert "should be at most 160 character(s)" in errors_on(changeset).email
-      assert "should be at most 72 character(s)" in errors_on(changeset).password
+      assert "o e-mail deve ter no máximo 160 caracteres" in errors_on(changeset).email
+      assert "deve ter pelo menos 12 e no máximo 72 caracteres" in errors_on(changeset).password
     end
 
     test "validates email uniqueness" do
       %{email: email} = user_fixture()
       {:error, changeset} = Accounts.register_user(%{email: email})
-      assert "has already been taken" in errors_on(changeset).email
+      assert "este e-mail já esta em uso" in errors_on(changeset).email
 
       # Now try with the upper cased email too, to check that email case is ignored.
       {:error, changeset} = Accounts.register_user(%{email: String.upcase(email)})
-      assert "has already been taken" in errors_on(changeset).email
+      assert "este e-mail já esta em uso" in errors_on(changeset).email
     end
 
     test "registers users with a hashed password" do
@@ -131,14 +131,14 @@ defmodule Tecnodiversidade.AccountsTest do
 
     test "requires email to change", %{user: user} do
       {:error, changeset} = Accounts.apply_user_email(user, valid_user_password(), %{})
-      assert %{email: ["did not change"]} = errors_on(changeset)
+      assert %{email: ["não foi alterado"]} = errors_on(changeset)
     end
 
     test "validates email", %{user: user} do
       {:error, changeset} =
         Accounts.apply_user_email(user, valid_user_password(), %{email: "not valid"})
 
-      assert %{email: ["must have the @ sign and no spaces"]} = errors_on(changeset)
+      assert %{email: ["deve ter @ e não conter espaços"]} = errors_on(changeset)
     end
 
     test "validates maximum value for email for security", %{user: user} do
@@ -147,7 +147,7 @@ defmodule Tecnodiversidade.AccountsTest do
       {:error, changeset} =
         Accounts.apply_user_email(user, valid_user_password(), %{email: too_long})
 
-      assert "should be at most 160 character(s)" in errors_on(changeset).email
+      assert "o e-mail deve ter no máximo 160 caracteres" in errors_on(changeset).email
     end
 
     test "validates email uniqueness", %{user: user} do
@@ -156,14 +156,14 @@ defmodule Tecnodiversidade.AccountsTest do
 
       {:error, changeset} = Accounts.apply_user_email(user, password, %{email: email})
 
-      assert "has already been taken" in errors_on(changeset).email
+      assert "este e-mail já esta em uso" in errors_on(changeset).email
     end
 
     test "validates current password", %{user: user} do
       {:error, changeset} =
         Accounts.apply_user_email(user, "invalid", %{email: unique_user_email()})
 
-      assert %{current_password: ["is not valid"]} = errors_on(changeset)
+      assert %{current_password: ["não é válida"]} = errors_on(changeset)
     end
 
     test "applies the email without persisting it", %{user: user} do
@@ -267,8 +267,8 @@ defmodule Tecnodiversidade.AccountsTest do
         })
 
       assert %{
-               password: ["should be at least 12 character(s)"],
-               password_confirmation: ["does not match password"]
+               password: ["deve ter pelo menos 12 e no máximo 72 caracteres"],
+               password_confirmation: ["a senha não confere"]
              } = errors_on(changeset)
     end
 
@@ -278,14 +278,14 @@ defmodule Tecnodiversidade.AccountsTest do
       {:error, changeset} =
         Accounts.update_user_password(user, valid_user_password(), %{password: too_long})
 
-      assert "should be at most 72 character(s)" in errors_on(changeset).password
+      assert "deve ter pelo menos 12 e no máximo 72 caracteres" in errors_on(changeset).password
     end
 
     test "validates current password", %{user: user} do
       {:error, changeset} =
         Accounts.update_user_password(user, "invalid", %{password: valid_user_password()})
 
-      assert %{current_password: ["is not valid"]} = errors_on(changeset)
+      assert %{current_password: ["não é válida"]} = errors_on(changeset)
     end
 
     test "updates the password", %{user: user} do
@@ -476,15 +476,15 @@ defmodule Tecnodiversidade.AccountsTest do
         })
 
       assert %{
-               password: ["should be at least 12 character(s)"],
-               password_confirmation: ["does not match password"]
+               password: ["deve ter pelo menos 12 e no máximo 72 caracteres"],
+               password_confirmation: ["a senha não confere"]
              } = errors_on(changeset)
     end
 
     test "validates maximum values for password for security", %{user: user} do
       too_long = String.duplicate("db", 100)
       {:error, changeset} = Accounts.reset_user_password(user, %{password: too_long})
-      assert "should be at most 72 character(s)" in errors_on(changeset).password
+      assert "deve ter pelo menos 12 e no máximo 72 caracteres" in errors_on(changeset).password
     end
 
     test "updates the password", %{user: user} do
