@@ -8,8 +8,8 @@ defmodule TecnodiversidadeWeb.UserRegistrationLiveTest do
     test "renders registration page", %{conn: conn} do
       {:ok, _lv, html} = live(conn, ~p"/users/register")
 
-      assert html =~ "Register"
-      assert html =~ "Log in"
+      assert html =~ "Criar Conta"
+      assert html =~ "Entrar"
     end
 
     test "redirects if already logged in", %{conn: conn} do
@@ -30,9 +30,9 @@ defmodule TecnodiversidadeWeb.UserRegistrationLiveTest do
         |> element("#registration_form")
         |> render_change(user: %{"email" => "with spaces", "password" => "too short"})
 
-      assert result =~ "Register"
-      assert result =~ "must have the @ sign and no spaces"
-      assert result =~ "should be at least 12 character"
+      assert result =~ "Criar Conta"
+      assert result =~ "deve ter @ e não conter espaços"
+      assert result =~ "deve ter pelo menos 12"
     end
   end
 
@@ -51,8 +51,8 @@ defmodule TecnodiversidadeWeb.UserRegistrationLiveTest do
       conn = get(conn, "/")
       response = html_response(conn, 200)
       assert response =~ email
-      assert response =~ "Settings"
-      assert response =~ "Log out"
+      assert response =~ "Configurações"
+      assert response =~ "Sair"
     end
 
     test "renders errors for duplicated email", %{conn: conn} do
@@ -67,7 +67,7 @@ defmodule TecnodiversidadeWeb.UserRegistrationLiveTest do
         )
         |> render_submit()
 
-      assert result =~ "has already been taken"
+      assert result =~ "este e-mail já esta em uso"
     end
   end
 
@@ -77,11 +77,11 @@ defmodule TecnodiversidadeWeb.UserRegistrationLiveTest do
 
       {:ok, _login_live, login_html} =
         lv
-        |> element(~s|main a:fl-contains("Log in")|)
+        |> element(~s|main a:fl-contains("Entrar")|)
         |> render_click()
         |> follow_redirect(conn, ~p"/users/log_in")
 
-      assert login_html =~ "Log in"
+      assert login_html =~ "Entrar"
     end
   end
 end

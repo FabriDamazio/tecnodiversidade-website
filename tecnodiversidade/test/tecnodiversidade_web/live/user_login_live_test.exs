@@ -8,9 +8,9 @@ defmodule TecnodiversidadeWeb.UserLoginLiveTest do
     test "renders log in page", %{conn: conn} do
       {:ok, _lv, html} = live(conn, ~p"/users/log_in")
 
-      assert html =~ "Log in"
-      assert html =~ "Register"
-      assert html =~ "Forgot your password?"
+      assert html =~ "Entrar"
+      assert html =~ "Criar Conta"
+      assert html =~ "Esqueceu a sua senha?"
     end
 
     test "redirects if already logged in", %{conn: conn} do
@@ -63,11 +63,11 @@ defmodule TecnodiversidadeWeb.UserLoginLiveTest do
 
       {:ok, _login_live, login_html} =
         lv
-        |> element(~s|main a:fl-contains("Sign up")|)
+        |> element(~s|main a:fl-contains("Crie")|)
         |> render_click()
         |> follow_redirect(conn, ~p"/users/register")
 
-      assert login_html =~ "Register"
+      assert login_html =~ "Criar uma conta"
     end
 
     test "redirects to forgot password page when the Forgot Password button is clicked", %{
@@ -77,11 +77,11 @@ defmodule TecnodiversidadeWeb.UserLoginLiveTest do
 
       {:ok, conn} =
         lv
-        |> element(~s|main a:fl-contains("Forgot your password?")|)
+        |> element(~s|main a:fl-contains("Esqueceu")|)
         |> render_click()
         |> follow_redirect(conn, ~p"/users/reset_password")
 
-      assert conn.resp_body =~ "Forgot your password?"
+      assert conn.resp_body =~ "Esqueceu sua senha?"
     end
   end
 end
