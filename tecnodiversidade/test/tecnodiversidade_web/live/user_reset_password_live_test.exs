@@ -21,14 +21,14 @@ defmodule TecnodiversidadeWeb.UserResetPasswordLiveTest do
     test "renders reset password with valid token", %{conn: conn, token: token} do
       {:ok, _lv, html} = live(conn, ~p"/users/reset_password/#{token}")
 
-      assert html =~ "Reset Password"
+      assert html =~ "Redefinir senha"
     end
 
     test "does not render reset password with invalid token", %{conn: conn} do
       {:error, {:redirect, to}} = live(conn, ~p"/users/reset_password/invalid")
 
       assert to == %{
-               flash: %{"error" => "Reset password link is invalid or it has expired."},
+               flash: %{"error" => "Link de redefinição de senha inválido ou expirado."},
                to: ~p"/"
              }
     end
@@ -43,8 +43,8 @@ defmodule TecnodiversidadeWeb.UserResetPasswordLiveTest do
           user: %{"password" => "secret12", "password_confirmation" => "secret123456"}
         )
 
-      assert result =~ "should be at least 12 character"
-      assert result =~ "does not match password"
+      assert result =~ "deve ter pelo menos 12"
+      assert result =~ "a senha não confere"
     end
   end
 
@@ -64,7 +64,7 @@ defmodule TecnodiversidadeWeb.UserResetPasswordLiveTest do
         |> follow_redirect(conn, ~p"/users/log_in")
 
       refute get_session(conn, :user_token)
-      assert Phoenix.Flash.get(conn.assigns.flash, :info) =~ "Password reset successfully"
+      assert Phoenix.Flash.get(conn.assigns.flash, :info) =~ "Senha redefinida com sucesso."
       assert Accounts.get_user_by_email_and_password(user.email, "new valid password")
     end
 
@@ -81,9 +81,9 @@ defmodule TecnodiversidadeWeb.UserResetPasswordLiveTest do
         )
         |> render_submit()
 
-      assert result =~ "Reset Password"
-      assert result =~ "should be at least 12 character(s)"
-      assert result =~ "does not match password"
+      assert result =~ "Redefinir senha"
+      assert result =~ "deve ter pelo menos 12"
+      assert result =~ "senha"
     end
   end
 
@@ -93,11 +93,11 @@ defmodule TecnodiversidadeWeb.UserResetPasswordLiveTest do
 
       {:ok, conn} =
         lv
-        |> element(~s|main a:fl-contains("Log in")|)
+        |> element(~s|main a:fl-contains("Entrar")|)
         |> render_click()
         |> follow_redirect(conn, ~p"/users/log_in")
 
-      assert conn.resp_body =~ "Log in"
+      assert conn.resp_body =~ "Entrar"
     end
 
     test "redirects to registration page when the Register button is clicked", %{
@@ -108,11 +108,12 @@ defmodule TecnodiversidadeWeb.UserResetPasswordLiveTest do
 
       {:ok, conn} =
         lv
-        |> element(~s|main a:fl-contains("Register")|)
+        |> element(~s|main a:fl-contains("Criar Conta")|)
         |> render_click()
         |> follow_redirect(conn, ~p"/users/register")
 
-      assert conn.resp_body =~ "Register"
+      assert conn.resp_body =~ "Criar Conta"
+
     end
   end
 end
