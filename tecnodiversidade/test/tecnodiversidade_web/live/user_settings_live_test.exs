@@ -12,8 +12,8 @@ defmodule TecnodiversidadeWeb.UserSettingsLiveTest do
         |> log_in_user(user_fixture())
         |> live(~p"/users/settings")
 
-      assert html =~ "Change Email"
-      assert html =~ "Change Password"
+      assert html =~ "Trocar E-mail"
+      assert html =~ "Trocar a Senha"
     end
 
     test "redirects if user is not logged in", %{conn: conn} do
@@ -45,7 +45,7 @@ defmodule TecnodiversidadeWeb.UserSettingsLiveTest do
         })
         |> render_submit()
 
-      assert result =~ "A link to confirm your email"
+      assert result =~ "Um link de confirmação foi enviado ao novo endereço de e-mail."
       assert Accounts.get_user_by_email(user.email)
     end
 
@@ -61,8 +61,8 @@ defmodule TecnodiversidadeWeb.UserSettingsLiveTest do
           "user" => %{"email" => "with spaces"}
         })
 
-      assert result =~ "Change Email"
-      assert result =~ "must have the @ sign and no spaces"
+      assert result =~ "Trocar E-mail"
+      assert result =~ "deve ter @ e não conter espaços"
     end
 
     test "renders errors with invalid data (phx-submit)", %{conn: conn, user: user} do
@@ -76,9 +76,9 @@ defmodule TecnodiversidadeWeb.UserSettingsLiveTest do
         })
         |> render_submit()
 
-      assert result =~ "Change Email"
-      assert result =~ "did not change"
-      assert result =~ "is not valid"
+      assert result =~ "Trocar E-mail"
+      assert result =~ "não foi alterado"
+      assert result =~ "não é válida"
     end
   end
 
@@ -132,9 +132,9 @@ defmodule TecnodiversidadeWeb.UserSettingsLiveTest do
           }
         })
 
-      assert result =~ "Change Password"
-      assert result =~ "should be at least 12 character(s)"
-      assert result =~ "does not match password"
+      assert result =~ "Trocar a Senha"
+      assert result =~ "deve ter pelo menos 12"
+      assert result =~ "a senha não confere"
     end
 
     test "renders errors with invalid data (phx-submit)", %{conn: conn} do
@@ -151,10 +151,10 @@ defmodule TecnodiversidadeWeb.UserSettingsLiveTest do
         })
         |> render_submit()
 
-      assert result =~ "Change Password"
-      assert result =~ "should be at least 12 character(s)"
-      assert result =~ "does not match password"
-      assert result =~ "is not valid"
+      assert result =~ "Trocar a Senha"
+      assert result =~ "deve ter pelo menos 12"
+      assert result =~ "a senha não confere"
+      assert result =~ "não é válida"
     end
   end
 
@@ -177,7 +177,7 @@ defmodule TecnodiversidadeWeb.UserSettingsLiveTest do
       assert {:live_redirect, %{to: path, flash: flash}} = redirect
       assert path == ~p"/users/settings"
       assert %{"info" => message} = flash
-      assert message == "Email changed successfully."
+      assert message == "E-mail atualizado com sucesso."
       refute Accounts.get_user_by_email(user.email)
       assert Accounts.get_user_by_email(email)
 
@@ -186,7 +186,7 @@ defmodule TecnodiversidadeWeb.UserSettingsLiveTest do
       assert {:live_redirect, %{to: path, flash: flash}} = redirect
       assert path == ~p"/users/settings"
       assert %{"error" => message} = flash
-      assert message == "Email change link is invalid or it has expired."
+      assert message == "Link inválido ou expirado."
     end
 
     test "does not update email with invalid token", %{conn: conn, user: user} do
@@ -194,7 +194,7 @@ defmodule TecnodiversidadeWeb.UserSettingsLiveTest do
       assert {:live_redirect, %{to: path, flash: flash}} = redirect
       assert path == ~p"/users/settings"
       assert %{"error" => message} = flash
-      assert message == "Email change link is invalid or it has expired."
+      assert message == "Link inválido ou expirado."
       assert Accounts.get_user_by_email(user.email)
     end
 
