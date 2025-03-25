@@ -10,6 +10,10 @@ defmodule Tecnodiversidade.ProgressTracker do
   alias Tecnodiversidade.LearningBlocks.LearningBlock
 
   @spec save_user_progress(integer(), integer()) :: tuple()
+  def save_user_progress(_blockId, user_id) when is_nil(user_id) do
+    {:error, :user_nil}
+  end
+
   def save_user_progress(block_id, user_id) do
     already_completed? =
       Repo.exists?(
@@ -17,7 +21,7 @@ defmodule Tecnodiversidade.ProgressTracker do
       )
 
     if(already_completed?) do
-      {:ok, :already_exists}
+      {:ok, :already_completed}
     else
       %UserProgress{block_id: block_id, user_id: user_id}
       |> Repo.insert()
