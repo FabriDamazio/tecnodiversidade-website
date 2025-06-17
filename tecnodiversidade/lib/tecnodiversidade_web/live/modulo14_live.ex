@@ -85,14 +85,18 @@ defmodule TecnodiversidadeWeb.Modulo14Live do
         Bibliografia básica
       </h2>
       <p class="mt-4">
-        FEENBERG, Andrew. O que é a filosofia da tecnologia? In: NEDER, Ricardo Toledo. <b>A teoria crítica de Andrew Feenberg:</b> racionalização democrática, poder e tecnologia. 2ª, Brasília: Observatório do Movimento pela Tecnologia Social na América Latina/CDS/UnB/Capes, 2013a. p. 49-66. Disponível em: <a
+        FEENBERG, Andrew. O que é a filosofia da tecnologia? In: NEDER, Ricardo Toledo.
+        <b>A teoria crítica de Andrew Feenberg:</b>
+        racionalização democrática, poder e tecnologia. 2ª, Brasília: Observatório do Movimento pela Tecnologia Social na América Latina/CDS/UnB/Capes, 2013a. p. 49-66. Disponível em: <a
           href="https://www.sfu.ca/~andrewf/Coletanea.pdf"
           target="_blank"
           class="text-blue-500 hover:underline"
         >https://www.sfu.ca/~andrewf/Coletanea.pdf</a>. Acesso em: 10 dez. 2024.
       </p>
       <p class="mt-4 mb-8 ">
-        FEENBERG, Andrew. Racionalização subversiva: tecnologia, poder e democracia. In: NEDER, Ricardo Toledo. <b>A teoria crítica de Andrew Feenberg:</b> racionalização democrática, poder e tecnologia. 2ª, Brasília: Observatório do Movimento pela Tecnologia Social na América Latina/CDS/UnB/Capes, 2013b. p. 67-98. Disponível em: <a
+        FEENBERG, Andrew. Racionalização subversiva: tecnologia, poder e democracia. In: NEDER, Ricardo Toledo.
+        <b>A teoria crítica de Andrew Feenberg:</b>
+        racionalização democrática, poder e tecnologia. 2ª, Brasília: Observatório do Movimento pela Tecnologia Social na América Latina/CDS/UnB/Capes, 2013b. p. 67-98. Disponível em: <a
           href="https://www.sfu.ca/~andrewf/Coletanea.pdf"
           target="_blank"
           class="text-blue-500 hover:underline"
@@ -160,7 +164,7 @@ defmodule TecnodiversidadeWeb.Modulo14Live do
         </div>
         <hr class="mb-8" />
         <div class="mb-8">
-          <h2 class="title-main text-gray-800 mb-4">📚 Leitura Complementar</h2>
+          <h2 class="title-main text-gray-800 mb-4">📚 Materiais Complementares</h2>
           <p class="text-gray-700">
             Para aprofundar seus conhecimentos, sugerimos o acesso à página de obras de Andrew Feenberg em
             <a
@@ -179,6 +183,29 @@ defmodule TecnodiversidadeWeb.Modulo14Live do
               https://www.scielo.br/j/trans/a/5kbzpzhfGhVtKTq53P69Xmf/
             </a>
           </p>
+          <div class="grid grid-cols-1 gap-8 mt-6">
+            <p class="text-gray-700">
+              Também recomendamos o seguinte podcast:
+            </p>
+            <a
+              href="https://www.youtube.com/c/PodcastTecnopol%C3%ADtica/featured"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex flex-col sm:flex-row items-center sm:items-start gap-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+            >
+              <img
+                src="/images/podcasttecnopolitica.jpg"
+                alt="Logotipo do Podcast Tecnopolítica"
+                class="w-full sm:w-48 h-32 object-cover rounded-lg sm:rounded-l-lg sm:rounded-r-none"
+              />
+              <div class="flex-1 text-center sm:text-left p-4">
+                <h3 class="text-lg font-semibold text-gray-800">Podcast Tecnopolítica</h3>
+                <p class="mt-2 text-gray-600">
+                  Debate como a tecnologia tem modificado nossas relações sociais, econômicas e políticas.
+                </p>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
       <hr class="mb-8" />

@@ -214,7 +214,7 @@ defmodule TecnodiversidadeWeb.Modulo33Live do
         </div>
         <hr class="mb-8" />
         <div class="mb-8">
-          <h2 class="title-main text-gray-800 mb-4">📚 Leitura Complementar</h2>
+          <h2 class="title-main text-gray-800 mb-4">📚 Materiais Complementares</h2>
           <p class="text-gray-700">
             Para aprofundar seus conhecimentos sobre tecnodiversidade e educação, sugerimos a leitura do artigo “Pensar as Tecnologias a partir de Gilbert Simondon e Yuk Hui” de Andréia Machado Oliveira, disponível em:
             <a
@@ -225,6 +225,31 @@ defmodule TecnodiversidadeWeb.Modulo33Live do
               https://seer.ufrgs.br/index.php/educacaoerealidade/article/view/120769
             </a>
           </p>
+          <div class="grid grid-cols-1 gap-8 mt-6">
+            <p class="text-gray-700">
+              Também recomendamos:
+            </p>
+            <a
+              href="https://educacaovigiada.org.br/pt/sobre.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex flex-col sm:flex-row items-center sm:items-start gap-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+            >
+              <img
+                src="/images/observatorio.jpg"
+                alt="Logotipo do Observatório Educação Vigiada"
+                class="w-full sm:w-48 h-32 object-cover rounded-lg sm:rounded-l-lg sm:rounded-r-none"
+              />
+              <div class="flex-1 text-center sm:text-left p-4">
+                <h3 class="text-lg font-semibold text-gray-800">
+                  Observatório Educação Vigiada
+                </h3>
+                <p class="mt-2 text-gray-600">
+                  Iniciativa de divulgação sobre a plataformização da educação pública no Brasil e na América do Sul.
+                </p>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
       <div class="flex justify-between mt-8">

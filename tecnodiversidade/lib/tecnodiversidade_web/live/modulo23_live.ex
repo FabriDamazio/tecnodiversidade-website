@@ -83,7 +83,7 @@ defmodule TecnodiversidadeWeb.Modulo23Live do
     <section class="body-text py-8 px-12 max-w-7xl mx-auto bg-gray-50">
       <div class="mb-8">
         <div class="mb-8">
-          <h2 class="title-main text-gray-800 mb-4">📚 Material Complementar</h2>
+          <h2 class="title-main text-gray-800 mb-4">📚 Materiais Complementares</h2>
           <p class="text-gray-700">
             Assista à Sessão Principal 1 - Tecnodiversidade e colonialismo digital: Imaginando outros futuros do Fórum da Internet no Brasil e saiba mais sobre o cenário da tecnodiversidade no Brasil. Link:
             <a
@@ -95,6 +95,53 @@ defmodule TecnodiversidadeWeb.Modulo23Live do
             </a>
           </p>
         </div>
+      </div>
+      <div class="grid grid-cols-1 gap-8 mt-6">
+        <p class="text-gray-700">
+          Também recomendamos:
+        </p>
+        <a
+          href="https://acaoeducativa.org.br/publicacoes/660t/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex flex-col sm:flex-row items-center sm:items-start gap-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+        >
+          <img
+            src="/images/livro_soberania_de_dados.jpg"
+            alt="Capa do livro Plataformização, Inteligência Artificial e Soberania de Dados"
+            class="w-full sm:w-48 h-32 object-cover rounded-lg sm:rounded-l-lg sm:rounded-r-none"
+          />
+          <div class="flex-1 text-center sm:text-left p-4">
+            <h3 class="text-lg font-semibold text-gray-800">
+              Livro: Plataformização, Inteligência Artificial e Soberania de Dados
+            </h3>
+            <p class="mt-2 text-gray-600">
+              O livro oferece uma análise aprofundada sobre como a plataformização e a inteligência artificial estão moldando os cenários econômicos, sociais e políticos do Brasil entre 2020 e 2030.
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="grid grid-cols-1 gap-8 mt-6">
+        <a
+          href="https://www.cgi.br/publicacoes/indice/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex flex-col sm:flex-row items-center sm:items-start gap-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+        >
+          <img
+            src="/images/logo_cgibr.png"
+            alt="Logotipo do Comitê Gestor da Internet no Brasil (CGI.br)"
+            class="w-full sm:w-48 h-32 object-cover rounded-lg sm:rounded-l-lg sm:rounded-r-none"
+          />
+          <div class="flex-1 text-center sm:text-left p-4">
+            <h3 class="text-lg font-semibold text-gray-800">
+              Publicações do Comitê Gestor da Internet no Brasil (CGI.br)
+            </h3>
+            <p class="mt-2 text-gray-600">
+              O Comitê Gestor da Internet no Brasil (CGI.br) disponibiliza diversas publicações e pesquisas sobre tecnologia no país. Os estudos abordam temas como educação, acesso à internet, mundo do trabalho e muito mais.
+            </p>
+          </div>
+        </a>
       </div>
       <hr class="mb-8" />
       <div class="flex justify-between mt-8">

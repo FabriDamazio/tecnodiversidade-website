@@ -21,7 +21,6 @@ defmodule TecnodiversidadeWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
-    get "/recomendacoes", PageController, :recomendacoes
     get "/contatos", PageController, :contatos
     get "/modulos", PageController, :modulos
     live "/avaliacao-curso", AvaliacaoCursoLive
