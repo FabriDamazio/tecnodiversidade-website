@@ -38,7 +38,7 @@ defmodule TecnodiversidadeWeb.Modulo33Live do
     </section>
     <section class="body-text py-8 px-12 max-w-7xl mx-auto">
       <p class="mt-4">
-        A Educação Profissional e Tecnológica (EPT) no Brasil tem se consolidado historicamente como um campo de formação que articula trabalho, ciência, tecnologia e cultura. Ao analisar esta modalidade educacional sob a perspectiva da tecnodiversidade, podem surgir importantes reflexões sobre como as diferentes cosmotécnicas e relações tecnológicas podem contribuir para a proposta da formação integral dos estudantes e para a valorização diferentes formas de saber técnico e tecnológico.
+        A Educação Profissional e Tecnológica (EPT) no Brasil tem se consolidado como uma modalidade de ensino que articula trabalho, ciência, tecnologia e cultura. Ao analisar esta modalidade educacional sob a perspectiva da tecnodiversidade, podem surgir importantes reflexões sobre como as diferentes cosmotécnicas e relações tecnológicas podem contribuir para a proposta da formação integral dos estudantes e para a valorização diferentes formas de saber técnico e tecnológico.
       </p>
       <p class="mt-4">
         Assista à vídeo-aula abaixo para aprofundar seu entendimento sobre as contribuições da tecnodiversidade para a EPT.
@@ -83,24 +83,42 @@ defmodule TecnodiversidadeWeb.Modulo33Live do
         IX - promover a produção, o desenvolvimento e a transferência de tecnologias sociais, notadamente as voltadas à preservação do meio ambiente.
       </p>
       <p class="mt-4">
-        Ao relacionarmos essas características e finalidades com o conceito de tecnodiversidade, encontramos pontos de convergência e reflexão sobre o papel dessas instituições na formação integral e no desenvolvimento tecnológico brasileiro. A seguir, estão os principais pontos de convergência destacados por este curso:
+        Relacionando as características e finalidades dos Institutos Federais apresentadas anteriormente com as discussões desenvolvidas nesta pesquisa até aqui, identifica-se o alinhamento do conceito de tecnodiversidade no contexto da Educação Profissional e Tecnológica. A seguir, apresentam-se os principais pontos de destaque:
       </p>
       <p class="mt-4">
         <b>
-          Mapeamento das potencialidades e fortalecimento dos arranjos produtivos, sociais e culturais locais:
+          - Desenvolvimento socioeconômico local, regional e nacional, e geração e adaptação de soluções técnicas e tecnológicas às demandas sociais e às peculiaridades regionais:
         </b>
-        Na adaptação de soluções técnicas e tecnológicas às demandas e peculiaridades regionais, compreende-se que cada região pode necessitar de soluções tecnológicas distintas, baseadas em diferentes conhecimentos e práticas locais. Além disso, destaca-se que a formação deve proporcionar meios para que os estudantes sejam capazes de se adaptar e inovar dentro de suas realidades regionais, utilizando a diversidade de tecnologias disponíveis. Isso se alinha à ideia de tecnodiversidade de Hui, ao reconhecer que não existe um modelo universal capaz de atender às questões locais e ao valorizar a diversidade de saberes disponíveis para a construção de tecnologias.
+        nesta pesquisa, entende-se que essas finalidades dos IFs alinham-se diretamente à ideia de múltiplas cosmotécnicas (Hui, 2016, 2020a). Na adaptação de soluções técnicas e tecnológicas às demandas e peculiaridades regionais, reconhece-se que cada território pode exigir respostas específicas, fundamentadas em saberes e práticas locais. Nesse sentido, a questão da territorialidade dos IFs oferece um cenário concreto para a investigação e o desenvolvimento de tecnologias vinculadas às realidades específicas, desafiando a visão universalista da tecnologia e promovendo a busca por alternativas tecnológicas e a valorização do saber tecnológico local.
+        <p class="mt-4">
+          Ainda, de acordo com Silva e Pacheco (2022, p. 10), 'se cada IF tem por função ouvir e articular as demandas de seu território, consequentemente a Rede permite a ampliação da escuta e da ação para todo o país [...]'. Entende-se que, dessa forma, viabiliza-se a ampliação do acesso à tecnodiversidade brasileira.
+        </p>
       </p>
       <p class="mt-4">
         <b>
-          Promoção da produção, o desenvolvimento e a transferência de tecnologias sociais:
+          - Verticalização do Ensino e Organização Pluricurricular:
         </b>
-        A tecnologia social de acordo com o Caderno de Debate - Tecnologia Social, é "um conjunto de técnicas, metodologias transformadoras, desenvolvidas e/ou aplicadas na interação com a população e apropriadas por ela, que representam soluções para inclusão social e melhoria das condições de vida.”
+        Silva e Pacheco (2022) indicam que os IFs atuam em diferentes níveis e modalidades educacionais, organizando seus currículos de forma a permitir fluxos formativos entre os diferentes cursos. Essa verticalização possibilita que estudantes e docentes transitem por diferentes campos de conhecimento e tecnologias, promovendo a integração de saberes e a diversidade tecnológica nos processos formativos.
       </p>
       <p class="mt-4">
-        A tecnologia social e a tecnodiversidade são conceitos que se inter-relacionam, mas possuem focos diferentes na educação profissional e tecnológica, conforme indicado no quadro abaixo:
+        <b>
+          - Desenvolvimento de programas de extensão e de divulgação científica  e tecnológica:
+        </b>
+        os programas de extensão e divulgação científica e tecnológica podem contribuir para as discussões sobre as diferentes cosmotécnicas e tecnologias sociais, ao evidenciar a importância da pluralidade no desenvolvimento tecnológico e incentivar a participação das comunidades. Também, podem configurar-se como espaços de diálogo e mapeamento das questões tecnológicas e das técnicas presentes nas localidades, promovendo o intercâmbio de saberes e a criação de soluções tecnológicas contextualizadas.
+        <p class="mt-4">
+          <b>
+            - Desenvolvimento e a transferência de tecnologias sociais:
+          </b>
+          a tecnologia social é "um conjunto de técnicas, metodologias transformadoras, desenvolvidas e/ou aplicadas na interação com a população e apropriadas por ela, que representam soluções para inclusão social e melhoria das condições de vida (ITS, 2004, p. 26).”
+        </p>
       </p>
-      <table class="min-w-full bg-white border border-gray-300 my-8">
+      <p class="my-4">
+        A tecnologia social e a tecnodiversidade são conceitos que podem ser relacionados, mas possuem enfoques diferentes, conforme indicado no quadro abaixo:
+      </p>
+      <div class="container mx-auto text-center">
+        Quadro 5 – Aspectos da Tecnologia Social e da Tecnodiversidade
+      </div>
+      <table class="min-w-full bg-white border border-gray-300 mb-8">
         <thead>
           <tr>
             <th class="py-3 px-4 border-b text-left bg-gray-100">Aspectos</th>
@@ -146,28 +164,16 @@ defmodule TecnodiversidadeWeb.Modulo33Live do
         </tbody>
       </table>
       <p class="mt-4">
-        A tecnologia social e a tecnodiversidade podem ser entendidos como conceitos complementares na educação profissional e tecnológica. A tecnodiversidade oferece a base para entender que existem múltiplas formas de tecnologia, enquanto a tecnologia social oferece uma maneira de usar esse entendimento para criar soluções que atendam às necessidades específicas de diferentes grupos sociais.
+        Nesse contexto, a tecnologia social e a tecnodiversidade podem configurar-se como conceitos complementares na Educação Profissional e Tecnológica. A tecnodiversidade fundamenta a compreensão epistemológica de que existem múltiplas formas de tecnologia e racionalidades tecnológicas, enquanto a tecnologia social constitui-se como uma estratégia para a aplicação desse entendimento na formulação de soluções contextualizadas, voltadas às demandas específicas de diferentes grupos sociais.
       </p>
       <p class="mt-4">
-        Apesar dos pontos de convergência identificados, existem importantes desafios a serem considerados:
+        Ainda, ao trazer a necessidade de promoção das tecnologias sociais, “notadamente as voltadas à preservação do meio ambiente” (Brasil, 2008), alinha-se à perspectiva de Hui (2020a) sobre as questões ambientais e sobre a necessidade de um novo desenvolvimento tecnológico, baseado na diversidade de cosmotécnicas, que busque imaginar futuros fora da lógica destrutiva hegemônica.
       </p>
       <p class="mt-4">
-        <b>
-          Integração entre teoria e prática:
-        </b>
-        a tecnodiversidade exige uma abordagem que integre os conhecimentos teóricos com a prática, permitindo aos alunos aplicar seus conhecimentos em contextos reais e valorizar diferentes formas de conhecimento, incluindo as práticas locais.
+        Além dos pontos apresentados, ao trazer a teoria de Hui (2016, 2020a) para o campo da educação profissional e tecnológica, entende-se que as discussões sobre tecnodiversidade e a interação entre cultura, tecnologia e natureza podem contribuir para o enfrentamento da alienação técnica.
       </p>
       <p class="mt-4">
-        <b>
-          Formação Docente:
-        </b>
-        a preparação dos professores para trabalhar com diferentes cosmotécnicas e diferentes formas de conhecimento.
-      </p>
-      <p class="mt-4">
-        <b>
-          Integração com as comunidades locais:
-        </b>
-        para que as discussões sobre tecnodiversidade avancem, se faz necessário uma forte interação entre as comunidades locais, setores produtivos e os espaços de produção do conhecimento.
+        Apesar dos pontos de convergência identificados na metodologia de análise dos dados desta pesquisa, existem importantes desafios a serem considerados: a) Integração entre teoria e prática: a tecnodiversidade exige uma abordagem que integre os conhecimentos teóricos com a prática, permitindo aos alunos aplicar seus conhecimentos em contextos reais e valorizar diferentes formas de conhecimento, incluindo as práticas locais. b) Formação Docente: a formação dos professores mediante as adequadas condições institucionais para trabalhar com diferentes cosmotécnicas e diferentes formas de conhecimento. c) Integração com as comunidades locais: para que as discussões sobre tecnodiversidade avancem, se faz necessário uma forte interação entre as comunidades locais, setores produtivos e os espaços de produção do conhecimento.
       </p>
       <hr class="my-8" />
       <h2 class="font-bold">
