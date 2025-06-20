@@ -69,7 +69,7 @@ defmodule TecnodiversidadeWeb.Modulo32Live do
         Os Institutos Federais
       </p>
       <p class="mt-4">
-        Em 2008, a criação dos Institutos Federais de Educação, Ciência e Tecnologia (IFs) representou um avanço na EPT, com a proposta de integrar a capacitação profissional à formação integral. Essa proposta visava superar a dualidade histórica na educação brasileira através da articulação entre educação profissional e propedêutica, proporcionando uma formação técnica, científica, cultural e social aos estudantes.
+        Os Institutos Federais de Educação, Ciência e Tecnologia desempenham um papel de grande importância na consolidação da educação profissional e tecnológica no Brasil.
       </p>
       <p class="mt-4">
         De acordo com o livreto da Secretaria de Educação Profissional e Tecnológica,
@@ -77,16 +77,48 @@ defmodule TecnodiversidadeWeb.Modulo32Live do
         (2008), “O foco dos Institutos Federais será a justiça social, a equidade, a competitividade econômica e a geração de novas tecnologias. Responderão, de forma ágil e eficaz, às demandas crescentes por formação profissional, por difusão de conhecimentos científicos e tecnológicos e de suporte aos arranjos produtivos locais.”
       </p>
       <p class="mt-4">
+        Os Institutos Federais devem atuar para desenvolvimento local, regional e nacional, promovendo inovações, a pesquisa aplicada e a extensão, visando às soluções tecnológicas e científicas. A lei também destaca o compromisso dessas instituições com o ensino de ciências, a formação crítica e a divulgação científica, consolidando-os como referências não apenas na educação, mas também no fomento ao empreendedorismo, à cooperação e à preservação ambiental.
+      </p>
+      <p class="mt-4">
         Os Institutos Federais têm um papel fundamental como produtores de ciência e tecnologia e, conforme estabelecido em sua lei de criação (11.892/2008), devem promover pesquisas aplicadas que busquem o desenvolvimento de soluções técnicas e tecnológicas, estendendo seus benefícios à comunidade. No contexto dos cursos, além de proporcionar acesso aos bens científicos, tecnológicos e culturais, é essencial compreender a realidade local e desenvolver, em conjunto com os estudantes, soluções que possam aprimorar as condições de vida e trabalho da comunidade. Ainda, na busca pela efetiva integração entre educação básica, profissional e superior, torna-se fundamental apresentar os diferentes níveis de conhecimento de cada área, permitindo que os estudantes compreendam seus fundamentos, metodologias, técnicas e tecnologias. Essa abordagem integrada possibilita uma visão integral do campo de estudo e desperta nos alunos a consciência de seu potencial para contribuir com o desenvolvimento científico e tecnológico.
+      </p>
+      <p class="mt-4">
+        Outra característica é a transversalidade e verticalização.  De acordo com Pacheco (2011, p. 24-25), “a verticalização, por seu turno, extrapola a simples oferta simultânea de cursos em diferentes níveis sem a preocupação de organizar os conteúdos curriculares de forma a permitir um diálogo rico e diverso entre as formações. Como princípio de organização dos componentes curriculares, a verticalização implica o reconhecimento de fluxos que permitam a construção de itinerários de formação entre os diferentes cursos da educação profissional e tecnológica: qualificação profissional, técnica, graduação e pós-graduação tecnológica. A transversalidade auxilia a verticalização curricular ao tomar as dimensões do trabalho, da cultura, da ciência e da tecnologia como vetores na escolha e na organização dos conteúdos, dos métodos, enfim, da ação pedagógica.”
+      </p>
+      <p class="mt-4">
+        Sua concepção pedagógica é orientada pela integração e articulação entre ciência, tecnologia, cultura e conhecimentos específicos, bem como pelo desenvolvimento da capacidade de investigação científica. Busca-se a superação da dicotomia entre teoria e prática, com a pesquisa como princípio educativo e a extensão como diálogo permanente com a sociedade (Brasil, 2010).
       </p>
       <p class="highlight mt-4">
         A Tecnologia na Educação Profissional e Tecnológica
       </p>
       <p class="mt-4">
-        A tecnologia tem uma papel crucial na EPT, indo além do mero uso de ferramentas e equipamentos. Segundo a resolução nº 6 de setembro de 2012, a EPT deve proporcionar aos estudantes o domínio intelectual das tecnologias pertinentes ao curso, de modo a permitir o desenvolvimento profissional e a capacidade de construir novos conhecimentos, com autonomia intelectual. Isso reforça que a tecnologia deve ser ensinada de forma a capacitar o aluno para além do uso imediato de ferramentas, mas também para a inovação, adaptação a novos cenários e para a sua atuação enquanto cidadão.
+        Ao analisar a legislação e os principais documentos orientadores da Educação Profissional e Tecnológica (EPT) no Brasil, observa-se um ponto importante: não há uma concepção epistemológica clara sobre os conceitos de técnica e tecnologia nesses materiais.
       </p>
       <p class="mt-4">
-        Para a professora Lucília Machado, existe uma série de conhecimentos e saberes convocados pela tecnologia na Educação Profissional e Tecnológica. São eles:
+        Na maioria das vezes, os documentos tratam técnica e tecnologia sob uma perspectiva instrumentalista. Isso significa que são entendidas principalmente como ferramentas ou meios para atingir determinados fins, o que limita uma compreensão mais ampla e crítica desses conceitos.
+      </p>
+      <p class="mt-4">
+        Além disso, percebe-se uma hierarquização entre técnica e tecnologia:
+        A técnica é frequentemente associada a habilidades práticas e operacionais.
+        A tecnologia, por sua vez, aparece como algo mais complexo, vinculado ao conhecimento científico e teórico.
+      </p>
+      <p class="mt-4">
+        Essa visão reforça a tradicional separação entre teoria e prática. Como destaca Souza (2024), apesar de existirem tentativas de superação dessa dualidade na EPT, ela ainda se faz presente. Isso acaba subordinando o saber técnico ao conhecimento científico, enfraquecendo o reconhecimento do valor da prática na construção do saber.
+      </p>
+      <p class="mt-4">
+        No entanto, quando se analisam as concepções de técnica e tecnologia a partir dos Institutos Federais de Educação, Ciência e Tecnologia, existe um aprofundamento no entendimento desses conceitos.
+      </p>
+      <p class="mt-4">
+        Ao falar sobre tecnologia, o livreto Concepções e Diretrizes dos Institutos aponta que
+      </p>
+      <div class="bg-gray-100 border-l-4 border-gray-900 text-gray-900 p-6 max-w-3xl ml-auto rounded-md shadow-md my-8">
+        <blockquote class="text-right italic text-lg">
+          “Em seu perfil mais específico, o da formação profissional, cabe-lhe, principalmente, o dever de traduzir o conhecimento científico sob o aparato das tecnologias – aqui também entendidas como manifestação da essência do homem, porquanto contribui em configurá-lo para o meio e este para ele. Entende-se, portanto, que as tecnologias são produtos da ação humana, historicamente construídos, expressando relações sociais das quais dependem, mas que também são influenciadas por eles.”
+        </blockquote>
+      </div>
+      <p class="mt-4"></p>
+      <p class="mt-4">
+        Nesse contexto, a professora Lucília Machado (2021) contribui com uma importante sistematização dos diferentes conhecimentos e saberes convocados pela tecnologia na EPT. Segundo ela, esse campo envolve:
       </p>
       <p class="mt-4">
         <li class="ml-10">Conhecimento sobre o meio e os ambientes técnicos;</li>
@@ -106,16 +138,7 @@ defmodule TecnodiversidadeWeb.Modulo32Live do
         <li class="ml-10">Conhecimento da interação da ciência com a técnica.</li>
       </p>
       <p class="mt-4">
-        Ao falar sobre tecnologia, o livreto Concepções e Diretrizes dos Institutos aponta que
-      </p>
-      <div class="bg-gray-100 border-l-4 border-gray-900 text-gray-900 p-6 max-w-3xl ml-auto rounded-md shadow-md my-8">
-        <blockquote class="text-right italic text-lg">
-          “Em seu perfil mais específico, o da formação profissional, cabe-lhe, principalmente, o dever de traduzir o conhecimento científico sob o aparato das tecnologias – aqui também entendidas como manifestação da essência do homem, porquanto contribui em configurá-lo para o meio e este para ele. Entende-se, portanto, que as tecnologias são produtos da ação humana, historicamente construídos, expressando relações sociais das quais dependem, mas que também são influenciadas por eles.”
-        </blockquote>
-      </div>
-      <p class="mt-4"></p>
-      <p class="mt-4">
-        Ao analisar a proposta da Educação Profissional e Tecnológica e dos Institutos Federais sob as perspectivas teóricas de Álvaro Vieira Pinto e Andrew Feenberg, identificam-se importantes convergências que contribuem para a compreensão do papel da tecnologia na educação. A visão de tecnologia apresentada no livreto alinha-se ao pensamento de Vieira Pinto, que a define como uma expressão da capacidade humana de transformar o mundo e a si mesmo.
+        Essa abordagem evidencia que a técnica e a tecnologia não podem ser compreendidas apenas como aplicação de conhecimentos científicos. Assim, ao analisar a proposta da Educação Profissional e Tecnológica e dos Institutos Federais sob as perspectivas teóricas de Álvaro Vieira Pinto e Andrew Feenberg, identificam-se importantes convergências que contribuem para a compreensão do papel da tecnologia na educação. A visão de tecnologia apresentada no livreto alinha-se ao pensamento de Vieira Pinto, que a define como uma expressão da capacidade humana de transformar o mundo e a si mesmo.
       </p>
       <p class="mt-4">
         Para Feenberg, a tecnologia é compreendida como uma construção social que pode ser democraticamente transformada. Essa alinha-se à proposta da EPT ao enfatizar a integração entre conhecimento científico-tecnológico e as necessidades sociais, levando em consideração os arranjos produtivos locais e promovendo justiça social e equidade.
