@@ -19,7 +19,7 @@ defmodule Tecnodiversidade.LearningBlocks do
     %LearningBlock{id: 32, url: "/modulos/3/questao-tecnologia-ept"},
     %LearningBlock{id: 33, url: "/modulos/3/tecnodiversidade-ept"},
     %LearningBlock{id: 34, url: "/modulos/3/quiz"},
-    %LearningBlock{id: 35, url: "/modulos/3/encerramento", type: :end},
+    %LearningBlock{id: 35, url: "/modulos/3/encerramento", type: :end}
   ]
 
   @spec get(integer() | nil) :: LearningBlock.t()
